@@ -1,7 +1,7 @@
 'use client';
 import { useTranslation } from 'react-i18next';
 import { Inter } from 'next/font/google';
-import '../styles/global.css';
+import '@/styles/global.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
