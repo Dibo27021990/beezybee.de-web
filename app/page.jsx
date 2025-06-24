@@ -1,11 +1,11 @@
-import HeroSection from '../components/HeroSection';
-import HowItWorks from '../components/HowItWorks';
-import ForWhom from '../components/ForWhom';
-import WhyDifferent from '../components/WhyDifferent';
-import RewardSystem from '../components/RewardSystem';
-import WaitlistSection from '../components/WaitlistSection';
-import SupportSection from '../components/SupportSection';
-import SplashScreen from '../components/SplashScreen';
+import HeroSection from '@/components/HeroSection';
+import HowItWorks from '@/components/HowItWorks';
+import ForWhom from '@/components/ForWhom';
+import WhyDifferent from '@/components/WhyDifferent';
+import RewardSystem from '@/components/RewardSystem';
+import WaitlistSection from '@/components/WaitlistSection';
+import SupportSection from '@/components/SupportSection';
+import SplashScreen from '@/components/SplashScreen';
 
 export default function HomePage() {
   return (
