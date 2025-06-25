@@ -5,35 +5,35 @@ import { useTranslation } from 'react-i18next';
 
 export default function BureaucracyTabs() {
   const { t } = useTranslation();
-  const [activeTab, setActiveTab] = useState('taxfree');
+  const [activeTab, setActiveTab] = useState('taxFree');
 
-  const tabContent = {
-    taxfree: t('bureaucracy.taxfree'),
-    license: t('bureaucracy.license'),
-    trade: t('bureaucracy.trade'),
-    advisor: t('bureaucracy.advisor')
-  };
+  const tabs = [
+    { key: 'taxFree', label: t('bureaucracy.tabs.taxFree') },
+    { key: 'businessLicense', label: t('bureaucracy.tabs.businessLicense') },
+    { key: 'businessTax', label: t('bureaucracy.tabs.businessTax') },
+    { key: 'taxAdvisor', label: t('bureaucracy.tabs.taxAdvisor') }
+  ];
 
   return (
-    <section className="py-12 px-4 max-w-3xl mx-auto">
-      <h2 className="text-xl font-bold text-center mb-6">{t('bureaucracy.title')}</h2>
-      <div className="flex justify-center gap-2 mb-4">
-        <button onClick={() => setActiveTab('taxfree')} className={`px-3 py-1 rounded ${activeTab === 'taxfree' ? 'bg-[#333] text-white' : 'bg-gray-200'}`}>
-          {t('bureaucracy.tabs.taxfree')}
-        </button>
-        <button onClick={() => setActiveTab('license')} className={`px-3 py-1 rounded ${activeTab === 'license' ? 'bg-[#333] text-white' : 'bg-gray-200'}`}>
-          {t('bureaucracy.tabs.license')}
-        </button>
-        <button onClick={() => setActiveTab('trade')} className={`px-3 py-1 rounded ${activeTab === 'trade' ? 'bg-[#333] text-white' : 'bg-gray-200'}`}>
-          {t('bureaucracy.tabs.trade')}
-        </button>
-        <button onClick={() => setActiveTab('advisor')} className={`px-3 py-1 rounded ${activeTab === 'advisor' ? 'bg-[#333] text-white' : 'bg-gray-200'}`}>
-          {t('bureaucracy.tabs.advisor')}
-        </button>
+    <div className="max-w-3xl mx-auto">
+      <div className="flex border-b mb-6">
+        {tabs.map((tab) => (
+          <button
+            key={tab.key}
+            onClick={() => setActiveTab(tab.key)}
+            className={`px-4 py-2 font-medium ${
+              activeTab === tab.key
+                ? 'border-b-2 border-black text-black'
+                : 'text-gray-500'
+            }`}
+          >
+            {tab.label}
+          </button>
+        ))}
       </div>
-      <div className="bg-white border p-4 rounded shadow">
-        <p>{tabContent[activeTab]}</p>
+      <div className="text-gray-700">
+        <p>{t(`bureaucracy.content.${activeTab}`)}</p>
       </div>
-    </section>
+    </div>
   );
 }
