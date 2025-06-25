@@ -1,0 +1,31 @@
+'use client';
+import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
+import Image from 'next/image';
+
+export default function StickyHeader() {
+  const { t } = useTranslation();
+
+  const tabs = [
+    { label: t('tabs.home'), href: '/' },
+    { label: t('tabs.howItWorks'), href: '#how-it-works' },
+    { label: t('tabs.whyDifferent'), href: '#why-different' },
+    { label: t('tabs.rewards'), href: '#rewards' },
+    { label: t('tabs.waitlist'), href: '#waitlist' },
+    { label: t('tabs.bureaucracy'), href: '#bureaucracy' },
+    { label: t('tabs.support'), href: '#support' }
+  ];
+
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#333] text-white shadow-md flex items-center justify-between px-4 py-2">
+      <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
+      <nav className="flex space-x-4 text-sm sm:text-base">
+        {tabs.map((tab, i) => (
+          <Link key={i} href={tab.href} className="hover:underline">
+            {tab.label}
+          </Link>
+        ))}
+      </nav>
+    </header>
+  );
+}
