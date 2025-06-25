@@ -1,27 +1,16 @@
 'use client';
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 export default function SplashScreen() {
-  const [isVisible, setIsVisible] = useState(true);
-
-  useEffect(() => {
-    // Hide splash after 3 seconds
-    const timer = setTimeout(() => setIsVisible(false), 3000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (!isVisible) return null;
+  const { t } = useTranslation();
 
   return (
-    <motion.div
-      className="fixed inset-0 bg-white flex items-center justify-center z-50"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-    >
-      {/* Splash content: logo image centered */}
-      <img src="/logo.png" alt="Helperbee Logo" className="h-24 w-24" />
-    </motion.div>
+    <div className="flex items-center justify-center h-screen bg-yellow-400">
+      <div className="text-center">
+        <Image src="/images/splash.png" alt="Splash Logo" width={200} height={200} className="mx-auto" />
+        <p className="text-xl mt-4 font-bold text-gray-800">{t('splash.slogan')}</p>
+      </div>
+    </div>
   );
 }
