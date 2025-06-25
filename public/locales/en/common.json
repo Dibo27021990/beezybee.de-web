@@ -1,26 +1,5 @@
 {
   "hero": {
-    "claim": "Helperbee – Help. Instantly. In your area.",
-    "downloadApp": "Download app",
-    "joinWaitlist": "Join waitlist",
-    "bullet1": "Find help",
-    "bullet2": "Earn money",
-    "bullet3": "All local, instant, fair"
-  },
-  "howItWorks": {
-    "title": "How it works",
-    "step1": "Create tasks or offer help – and earn money",
-    "step2": "Automatic price and match suggestions via our AI",
-    "step3": "Get or give help, receive reviews & Beecoins"
-  },
-  "forWhom": {
-    "title": "Who is Helperbee for?",
-    "seekers": {
-      "label": "Seekers",
-      "examples": "e.g. families, elderly"
-    },
-    "hel{
-  "hero": {
     "claim": "Helperbee – Help. Instantly. Near you.",
     "downloadApp": "Download App",
     "joinWaitlist": "Join waitlist",
@@ -107,4 +86,13 @@
     },
     "contents": {
       "taxFree": "You can help without a business license as long as you earn under €8000/year. Perfect for occasional help – simple and legal!",
-      "businessLicense": "For regular earnings,
+      "businessLicense": "For regular earnings, we recommend a business license. Registering is quick and easy online.",
+      "taxOffice": "Business tax applies only above approx. €24,500 profit. Below that, you're tax-free.",
+      "taxAdvisor": "Our partner tax advisors will support you! Just send a support ticket with the subject 'Tax Advisor' – we’ll connect you."
+    }
+  },
+  "error": {
+    "pageNotFound": "The page could not be found.",
+    "backToHome": "Back to homepage"
+  }
+}
