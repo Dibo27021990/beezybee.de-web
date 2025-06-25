@@ -3,13 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { FaCheckCircle } from 'react-icons/fa';
 
 export default function WhyDifferent() {
-  const { t } = useTranslation('common'); // expliziter Namespace "common"
+  const { t } = useTranslation();
   const points = t('whyDifferent.points', { returnObjects: true });
-
-  if (!Array.isArray(points)) {
-    console.error('❌ Übersetzungsfehler: "whyDifferent.points" ist kein Array.');
-    return null;
-  }
 
   return (
     <section className="py-16 px-4 bg-white">
