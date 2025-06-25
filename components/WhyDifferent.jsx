@@ -3,10 +3,14 @@ import { useTranslation } from 'react-i18next';
 import { FaCheckCircle } from 'react-icons/fa';
 
 export default function WhyDifferent() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('common'); // expliziter Namespace "common"
   const points = t('whyDifferent.points', { returnObjects: true });
 
-  // returnObjects allows array from translations
+  if (!Array.isArray(points)) {
+    console.error('❌ Übersetzungsfehler: "whyDifferent.points" ist kein Array.');
+    return null;
+  }
+
   return (
     <section className="py-16 px-4 bg-white">
       <h2 className="text-xl font-bold text-center mb-8">{t('whyDifferent.title')}</h2>

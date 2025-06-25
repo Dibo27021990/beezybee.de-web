@@ -1,0 +1,15 @@
+# Build output
+.next/
+out/
+dist/
+
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+
+# Environment files
+.env.local
+.env.*.local
+.env
