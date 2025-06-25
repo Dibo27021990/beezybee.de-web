@@ -1,26 +1,31 @@
 'use client';
 import { useTranslation } from 'react-i18next';
-import { FaClipboardList, FaHandshake, FaAward } from 'react-icons/fa';
 
 export default function HowItWorks() {
   const { t } = useTranslation();
 
-  const steps = [
-    { icon: <FaClipboardList className="text-3xl text-yellow-600 mb-2" />, text: t('howItWorks.step1') },
-    { icon: <FaHandshake className="text-3xl text-yellow-600 mb-2" />, text: t('howItWorks.step2') },
-    { icon: <FaAward className="text-3xl text-yellow-600 mb-2" />, text: t('howItWorks.step3') }
-  ];
-
   return (
-    <section className="py-16 px-4 bg-white text-center">
-      <h2 className="text-xl font-bold mb-8">{t('howItWorks.title')}</h2>
-      <div className="max-w-4xl mx-auto flex flex-col sm:flex-row justify-around items-start sm:items-center text-left gap-8">
-        {steps.map((step, idx) => (
-          <div key={idx} className="flex-1">
-            <div>{step.icon}</div>
-            <p className="text-gray-800 text-base">{step.text}</p>
-          </div>
-        ))}
+    <section className="bg-gray-50 py-16 px-4 text-center">
+      <h2 className="text-2xl font-bold mb-10">{t('howItWorks.title')}</h2>
+      <div className="grid gap-6 sm:grid-cols-3 max-w-5xl mx-auto text-left">
+        <div className="bg-white p-6 rounded shadow">
+          <h3 className="text-xl font-semibold mb-2">1. Aufträge erstellen</h3>
+          <p>
+            Erstelle Suchanfragen oder biete Hilfe an – verdiene dabei Geld & lerne Menschen kennen.
+          </p>
+        </div>
+        <div className="bg-white p-6 rounded shadow">
+          <h3 className="text-xl font-semibold mb-2">2. KI erledigt den Rest</h3>
+          <p>
+            Unsere intelligente KI schlägt automatisch faire Preise & passende Helfer:innen vor.
+          </p>
+        </div>
+        <div className="bg-white p-6 rounded shadow">
+          <h3 className="text-xl font-semibold mb-2">3. Belohnung erhalten</h3>
+          <p>
+            Gib oder erhalte Hilfe, werde bewertet, sammle BeeCoins – vielleicht wirst du Biene des Monats!
+          </p>
+        </div>
       </div>
     </section>
   );
