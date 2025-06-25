@@ -1,27 +1,26 @@
-import Header from '@/components/Header';
-import Image from 'next/image';
 import Hero from '@/components/Hero';
-import WhyDifferent from '@/components/WhyDifferent';
-import ForWhom from '@/components/ForWhom';
 import HowItWorks from '@/components/HowItWorks';
+import ForWhom from '@/components/ForWhom';
+import WhyDifferent from '@/components/WhyDifferent';
+import RewardSystem from '@/components/RewardSystem';
+import WaitlistSection from '@/components/WaitlistSection';
+import SupportSection from '@/components/SupportSection';
+import BureaucracyTabs from '@/components/BureaucracyTabs';
+import StickyHeader from '@/components/StickyHeader';
 
 export default function HomePage() {
   return (
     <>
-      <Header />
-      <div className="w-full flex justify-center bg-yellow-100 py-4">
-        <Image
-          src="/images/banner.jpg"
-          alt="Helperbee Banner"
-          width={300}
-          height={80}
-        />
-      </div>
+      <StickyHeader />
       <main>
         <Hero />
-        <ForWhom />
         <HowItWorks />
+        <ForWhom />
         <WhyDifferent />
+        <RewardSystem />
+        <WaitlistSection />
+        <BureaucracyTabs />
+        <SupportSection />
       </main>
     </>
   );
