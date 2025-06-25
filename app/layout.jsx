@@ -1,30 +1,23 @@
-'use client';
-import { useTranslation } from 'react-i18next';
-import { Inter } from 'next/font/google';
-import '@/styles/global.css';
-import '@/lib/i18n';
+import './globals.css';
+import Navbar from '@/components/Navbar';
+import { dir } from 'i18next';
+import { languages } from '../i18n/settings';
 
+export const metadata = {
+  title: 'Helperbee',
+  description: 'Die App, die wirklich hilft.',
+};
 
-const inter = Inter({ subsets: ['latin'] });
+export function generateStaticParams() {
+  return languages.map((lng) => ({ lng }));
+}
 
-export default function RootLayout({ children }) {
-  const { i18n } = useTranslation();
-  const toggleLanguage = () => {
-    const newLang = i18n.language === 'de' ? 'en' : 'de';
-    i18n.changeLanguage(newLang);
-  };
-
+export default function RootLayout({ children, params: { lng } }) {
   return (
-    <html lang={i18n.language} className={inter.className}>
-      <head><title>Helperbee</title></head>
-      <body className="bg-white text-textColor">
-        <header className="bg-primary flex items-center justify-between px-4 py-2">
-          <img src="/logo.png" alt="Helperbee Logo" className="h-8" />
-          <button onClick={toggleLanguage} className="text-sm underline">
-            {i18n.language === 'de' ? 'EN' : 'DE'}
-          </button>
-        </header>
-        {children}
+    <html lang={lng} dir={dir(lng)}>
+      <body>
+        <Navbar />
+        <main className="pt-16">{children}</main>
       </body>
     </html>
   );
