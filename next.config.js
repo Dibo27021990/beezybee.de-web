@@ -1,12 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  i18n: {
-    locales: ['de', 'en'],
-    defaultLocale: 'de',
-    domains: [
-      { domain: 'helperbee.de', defaultLocale: 'de' },
-      { domain: 'gethelperbee.com', defaultLocale: 'en' }
-    ]
+  reactStrictMode: true,
+  experimental: {
+    serverComponentsExternalPackages: ['undici'] // nötig für Firebase/undici
+  },
+  webpack: (config) => {
+    // Mapbox GL Fix: verhindert Probleme mit WebGL im SSR
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false,
+      net: false,
+      tls: false,
+      module: false,
+      stream: false,
+      assert: false
+    };
+    return config;
   }
 };
 
