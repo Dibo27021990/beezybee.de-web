@@ -3,29 +3,36 @@ import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 
-export default function StickyHeader() {
+export default function StickyHeader({ lng }) {
   const { t } = useTranslation();
 
-  const tabs = [
-    { label: t('tabs.home'), href: '/' },
-    { label: t('tabs.howItWorks'), href: '#how-it-works' },
-    { label: t('tabs.whyDifferent'), href: '#why-different' },
-    { label: t('tabs.rewards'), href: '#rewards' },
-    { label: t('tabs.waitlist'), href: '#waitlist' },
-    { label: t('tabs.bureaucracy'), href: '#bureaucracy' },
-    { label: t('tabs.support'), href: '#support' }
-  ];
-
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#333] text-white shadow-md flex items-center justify-between px-4 py-2">
-      <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
-      <nav className="flex space-x-4 text-sm sm:text-base">
-        {tabs.map((tab, i) => (
-          <Link key={i} href={tab.href} className="hover:underline">
-            {tab.label}
+    <header className="sticky top-0 z-50 bg-[#333] text-white shadow">
+      <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
+        <Link href={`/${lng}`}>
+          <Image
+            src="/images/logo.png"
+            alt="Helperbee Logo"
+            width={40}
+            height={40}
+            className="rounded-full"
+          />
+        </Link>
+        <nav className="space-x-4 text-sm sm:text-base">
+          <Link href={`/${lng}#howItWorks`} className="hover:underline">
+            {t('tabs.how')}
           </Link>
-        ))}
-      </nav>
+          <Link href={`/${lng}#rewards`} className="hover:underline">
+            {t('tabs.rewards')}
+          </Link>
+          <Link href={`/${lng}#availability`} className="hover:underline">
+            {t('tabs.availability')}
+          </Link>
+          <Link href={`/${lng}/support`} className="hover:underline">
+            {t('tabs.support')}
+          </Link>
+        </nav>
+      </div>
     </header>
   );
 }
