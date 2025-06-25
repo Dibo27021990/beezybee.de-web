@@ -3,13 +3,13 @@ import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 
-export default function StickyHeader({ lng }) {
+export default function StickyHeader() {
   const { t } = useTranslation();
 
   return (
-    <header className="sticky top-0 z-50 bg-[#333] text-white shadow">
-      <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
-        <Link href={`/${lng}`}>
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#333] text-white shadow-md">
+      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div className="flex items-center space-x-3">
           <Image
             src="/images/logo.png"
             alt="Helperbee Logo"
@@ -17,21 +17,18 @@ export default function StickyHeader({ lng }) {
             height={40}
             className="rounded-full"
           />
-        </Link>
-        <nav className="space-x-4 text-sm sm:text-base">
-          <Link href={`/${lng}#howItWorks`} className="hover:underline">
-            {t('tabs.how')}
-          </Link>
-          <Link href={`/${lng}#rewards`} className="hover:underline">
-            {t('tabs.rewards')}
-          </Link>
-          <Link href={`/${lng}#availability`} className="hover:underline">
-            {t('tabs.availability')}
-          </Link>
-          <Link href={`/${lng}/support`} className="hover:underline">
-            {t('tabs.support')}
-          </Link>
+          <span className="font-semibold text-lg">Helperbee</span>
+        </div>
+        <nav className="space-x-4 hidden md:block">
+          <Link href="/#home" className="hover:text-yellow-400">{t('tabs.home')}</Link>
+          <Link href="/#how" className="hover:text-yellow-400">{t('tabs.how')}</Link>
+          <Link href="/#rewards" className="hover:text-yellow-400">{t('tabs.rewards')}</Link>
+          <Link href="/#waitlist" className="hover:text-yellow-400">{t('tabs.waitlist')}</Link>
+          <Link href="/#support" className="hover:text-yellow-400">{t('tabs.support')}</Link>
         </nav>
+        <div className="md:hidden">
+          {/* Mobile Menü folgt später */}
+        </div>
       </div>
     </header>
   );
