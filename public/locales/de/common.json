@@ -9,9 +9,9 @@
   },
   "howItWorks": {
     "title": "So funktioniert es",
-    "step1": "Aufträge erstellen oder Hilfe anbieten – und dabei Geld verdienen",
+    "step1": "Aufträge erstellen oder Hilfe anbieten und dabei Geld verdienen",
     "step2": "Automatische Preis- und Matchingvorschläge durch unsere KI",
-    "step3": "Hilfe geben oder erhalten, bewerten, Beecoins sammeln"
+    "step3": "Hilfe bekommen oder geben, bewerten und Beecoins verdienen"
   },
   "forWhom": {
     "title": "Für wen ist Helperbee?",
@@ -21,7 +21,7 @@
     },
     "helpers": {
       "label": "Helfer:innen",
-      "examples": "z. B. Studierende, Rentner:innen"
+      "examples": "z. B. Studierende, Handwerker"
     }
   },
   "whyDifferent": {
@@ -35,7 +35,7 @@
   },
   "rewards": {
     "title": "Belohnungssystem",
-    "description": "HelperPoints belohnen dein Engagement: Für jede erfolgreiche Hilfe erhältst du Punkte, die du gegen exklusive Vorteile einlösen kannst. Diese Funktion ist bald verfügbar."
+    "description": "HelperPoints belohnen dein Engagement: Für jede erfolgreiche Hilfe erhältst du Punkte, die du gegen exklusive Vorteile einlösen kannst."
   },
   "waitlist": {
     "title": "Warteliste beitreten",
@@ -47,6 +47,34 @@
     "roleHelper": "helfen und Geld verdienen",
     "submit": "In Warteliste eintragen",
     "success": "Danke! Wir haben deine Anmeldung erhalten."
+  },
+  "support": {
+    "title": "Support-Center",
+    "subtitle": "Hast du ein Problem oder Feedback? Sende uns ein Ticket:",
+    "fieldCategory": "Kategorie",
+    "fieldMessage": "Nachricht",
+    "fieldEmail": "Deine E-Mail",
+    "categories": {
+      "appIssue": "App funktioniert nicht",
+      "account": "Problem mit Account",
+      "other": "Anderes Anliegen"
+    },
+    "submit": "Ticket absenden",
+    "success": "Vielen Dank! Dein Ticket wurde gesendet."
+  },
+  "admin": {
+    "dashboardTitle": "Admin-Dashboard",
+    "newTickets": "Neue Support-Tickets",
+    "waitlistHeatmap": "Wartelisten-Heatmap",
+    "waitlistTable": "Warteliste (Einträge)",
+    "filter": "Filter",
+    "logout": "Logout"
+  },
+  "login": {
+    "email": "E-Mail",
+    "password": "Passwort",
+    "loginButton": "Einloggen",
+    "error": "Login fehlgeschlagen. Bitte Zugangsdaten prüfen."
   },
   "bureaucracy": {
     "title": "Bürokratie einfach gemacht",
@@ -63,24 +91,9 @@
       "taxAdvisor": "Unsere Partner-Steuerberater helfen dir! Schick uns ein Support-Ticket mit dem Betreff „Steuerberater“ – wir verbinden dich direkt."
     }
   },
-  "support": {
-    "title": "Support-Center",
-    "subtitle": "Hast du ein Problem oder Feedback? Sende uns ein Ticket:",
-    "fieldCategory": "Kategorie",
-    "fieldMessage": "Nachricht",
-    "fieldEmail": "Deine E-Mail",
-    "categories": {
-      "appIssue": "App funktioniert nicht",
-      "account": "Problem mit Account",
-      "other": "Anderes Anliegen"
-    },
-    "submit": "Ticket absenden",
-    "success": "Vielen Dank! Dein Ticket wurde gesendet."
-  },
-  "login": {
-    "email": "E-Mail",
-    "password": "Passwort",
-    "loginButton": "Einloggen",
-    "error": "Login fehlgeschlagen. Bitte Zugangsdaten prüfen."
+  "error": {
+    "pageNotFound": "Die Seite konnte nicht gefunden werden.",
+    "backToHome": "Zurück zur Startseite"
   }
 }
+
