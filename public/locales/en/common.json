@@ -1,74 +1,81 @@
 {
   "hero": {
-    "claim": "Helperbee – Help. Immediately. In your area.",
-    "downloadApp": "Download App",
-    "joinWaitlist": "Join Waitlist",
+    "claim": "Helperbee – Help. Instantly. In your area.",
+    "downloadApp": "Download app",
+    "joinWaitlist": "Join waitlist",
     "bullet1": "Find help",
     "bullet2": "Earn money",
-    "bullet3": "Local, instant, fair"
+    "bullet3": "All local, instant, fair"
   },
   "howItWorks": {
     "title": "How it works",
-    "step1": "1. Create a request or offer help",
-    "step2": "2. Our app matches you automatically",
-    "step3": "3. Get it done, rate each other, earn rewards"
+    "step1": "Create tasks or offer help – and earn money",
+    "step2": "Automatic price and match suggestions via our AI",
+    "step3": "Get or give help, receive reviews & Beecoins"
   },
   "forWhom": {
     "title": "Who is Helperbee for?",
     "seekers": {
       "label": "Seekers",
-      "examples": "e.g. Families, Seniors"
+      "examples": "e.g. families, elderly"
     },
     "helpers": {
       "label": "Helpers",
-      "examples": "e.g. Students, Craftsmen"
+      "examples": "e.g. students, retirees"
     }
   },
   "whyDifferent": {
-    "title": "Why we’re different",
+    "title": "Why we're different",
     "points": [
       "Local & personal",
-      "AI-driven fairness",
-      "Community system",
-      "Security & trust"
+      "AI-powered fairness",
+      "Community-based system",
+      "Trust & safety"
     ]
   },
   "rewards": {
     "title": "Reward System",
-    "description": "HelperPoints reward your engagement: for each successful help you earn points which you can redeem for exclusive benefits."
+    "description": "HelperPoints reward your engagement. For every successful task you earn points – redeemable for exclusive perks. This feature will be available soon."
   },
   "waitlist": {
-    "title": "Join the Waitlist",
-    "subtitle": "Sign up now to be the first to know when we launch:",
-    "fieldEmail": "Email Address",
-    "fieldZip": "Postal Code",
+    "title": "Join the waitlist",
+    "subtitle": "Helperbee not yet available in your area? Sign up here:",
+    "fieldEmail": "Email address",
+    "fieldZip": "Postal code",
     "fieldRole": "I want to...",
     "roleSeeker": "find help",
-    "roleHelper": "help and earn money",
-    "submit": "Join Waitlist",
-    "success": "Thank you! We have received your signup."
+    "roleHelper": "offer help and earn money",
+    "submit": "Join the waitlist",
+    "success": "Thanks! We've received your registration."
+  },
+  "bureaucracy": {
+    "title": "Bureaucracy made easy",
+    "tabs": {
+      "taxFree": "Help without taxes",
+      "businessLicense": "Business license",
+      "taxOffice": "Trade tax",
+      "taxAdvisor": "Tax advisor"
+    },
+    "contents": {
+      "taxFree": "You can help without a business license as long as you earn under €8,000/year. Ideal for occasional jobs – no hassle!",
+      "businessLicense": "For regular earnings, we recommend registering a business. Easy and fast online process.",
+      "taxOffice": "Trade tax is only due after €24,500 profit/year. Below that you’re exempt.",
+      "taxAdvisor": "Our partner tax advisors support you! Send us a support ticket with the subject 'Tax advisor' – we'll connect you directly."
+    }
   },
   "support": {
     "title": "Support Center",
-    "subtitle": "Encountered an issue or have feedback? Send us a ticket:",
+    "subtitle": "Problems or feedback? Send us a ticket:",
     "fieldCategory": "Category",
     "fieldMessage": "Message",
-    "fieldEmail": "Your Email",
+    "fieldEmail": "Your email",
     "categories": {
-      "appIssue": "App is not working",
+      "appIssue": "App doesn't work",
       "account": "Account issue",
-      "other": "Other"
+      "other": "Other request"
     },
-    "submit": "Submit Ticket",
-    "success": "Thanks! Your ticket has been sent."
-  },
-  "admin": {
-    "dashboardTitle": "Admin Dashboard",
-    "newTickets": "New Support Tickets",
-    "waitlistHeatmap": "Waitlist Heatmap",
-    "waitlistTable": "Waitlist Entries",
-    "filter": "Filter",
-    "logout": "Logout"
+    "submit": "Send ticket",
+    "success": "Thanks! Your ticket was submitted."
   },
   "login": {
     "email": "Email",
