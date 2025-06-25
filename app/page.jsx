@@ -3,7 +3,7 @@ import Hero from '@/components/Hero';
 import HowItWorks from '@/components/HowItWorks';
 import ForWhom from '@/components/ForWhom';
 import WhyDifferent from '@/components/WhyDifferent';
-import Rewards from '@/components/RewardsSystem';
+import Rewards from '@/components/RewardSystem';
 import WaitlistForm from '@/components/WaitlistForm';
 import BureaucracyTabs from '@/components/BureaucracyTabs';
 
