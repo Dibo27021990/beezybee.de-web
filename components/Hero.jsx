@@ -1,20 +1,28 @@
 'use client';
 import { useTranslation } from 'react-i18next';
+import Image from 'next/image';
 
 export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="text-center py-16 px-4 bg-white">
+    <section className="bg-white py-20 text-center relative">
+      <Image
+        src="/images/banner.jpg"
+        alt="Helperbee Banner"
+        width={120}
+        height={120}
+        className="mx-auto mb-4 rounded-full"
+      />
       <h1 className="text-3xl sm:text-4xl font-bold mb-4">{t('hero.claim')}</h1>
-      <p className="text-lg mb-8">Helperbee – Die App, die wirklich hilft.</p>
-      <div className="flex justify-center gap-6">
-        <button className="bg-[#333] text-white px-6 py-3 rounded">
+      <p className="text-lg text-gray-600 mb-6">{t('hero.slogan')}</p>
+      <div className="flex justify-center space-x-4">
+        <a href="#" className="bg-black text-white px-4 py-2 rounded">
           {t('hero.downloadApp')}
-        </button>
-        <button className="bg-yellow-500 text-white px-6 py-3 rounded">
+        </a>
+        <a href="#availability" className="bg-yellow-400 text-black px-4 py-2 rounded">
           {t('hero.joinWaitlist')}
-        </button>
+        </a>
       </div>
     </section>
   );
