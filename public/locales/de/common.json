@@ -9,19 +9,19 @@
   },
   "howItWorks": {
     "title": "So funktioniert es",
-    "step1": "1. Auftrag erstellen oder Hilfe anbieten",
-    "step2": "2. Automatisches Matching durch unsere App",
-    "step3": "3. Ausführen, bewerten und Belohnung erhalten"
+    "step1": "Aufträge erstellen oder Hilfe anbieten – und dabei Geld verdienen",
+    "step2": "Automatische Preis- und Matchingvorschläge durch unsere KI",
+    "step3": "Hilfe geben oder erhalten, bewerten, Beecoins sammeln"
   },
   "forWhom": {
     "title": "Für wen ist Helperbee?",
     "seekers": {
       "label": "Suchende",
-      "examples": "z. B. Familien, Senioren"
+      "examples": "z. B. Familien, Senioren"
     },
     "helpers": {
       "label": "Helfer:innen",
-      "examples": "z. B. Studierende, Handwerker"
+      "examples": "z. B. Studierende, Rentner:innen"
     }
   },
   "whyDifferent": {
@@ -35,11 +35,11 @@
   },
   "rewards": {
     "title": "Belohnungssystem",
-    "description": "HelperPoints belohnen dein Engagement: Für jede erfolgreiche Hilfe erhältst du Punkte, die du gegen exklusive Vorteile einlösen kannst."
+    "description": "HelperPoints belohnen dein Engagement: Für jede erfolgreiche Hilfe erhältst du Punkte, die du gegen exklusive Vorteile einlösen kannst. Diese Funktion ist bald verfügbar."
   },
   "waitlist": {
     "title": "Warteliste beitreten",
-    "subtitle": "Trag dich ein und erfahre als Erster vom App-Start:",
+    "subtitle": "Helperbee bei dir noch nicht verfügbar? Trag dich hier ein:",
     "fieldEmail": "E-Mail-Adresse",
     "fieldZip": "Postleitzahl",
     "fieldRole": "Ich möchte...",
@@ -47,6 +47,21 @@
     "roleHelper": "helfen und Geld verdienen",
     "submit": "In Warteliste eintragen",
     "success": "Danke! Wir haben deine Anmeldung erhalten."
+  },
+  "bureaucracy": {
+    "title": "Bürokratie einfach gemacht",
+    "tabs": {
+      "taxFree": "Steuerfrei helfen",
+      "businessLicense": "Gewerbeschein",
+      "taxOffice": "Gewerbesteuer",
+      "taxAdvisor": "Steuerberatung"
+    },
+    "contents": {
+      "taxFree": "Du kannst ohne Gewerbe helfen, solange du unter 8000 €/Jahr verdienst. Ideal für gelegentliche Hilfe – ganz unkompliziert!",
+      "businessLicense": "Ab regelmäßigen Einnahmen empfehlen wir einen Gewerbeschein. Die Anmeldung ist einfach und online möglich.",
+      "taxOffice": "Gewerbesteuer fällt erst ab ca. 24.500 € Gewinn an. Darunter bleibst du steuerfrei.",
+      "taxAdvisor": "Unsere Partner-Steuerberater helfen dir! Schick uns ein Support-Ticket mit dem Betreff „Steuerberater“ – wir verbinden dich direkt."
+    }
   },
   "support": {
     "title": "Support-Center",
@@ -61,14 +76,6 @@
     },
     "submit": "Ticket absenden",
     "success": "Vielen Dank! Dein Ticket wurde gesendet."
-  },
-  "admin": {
-    "dashboardTitle": "Admin-Dashboard",
-    "newTickets": "Neue Support-Tickets",
-    "waitlistHeatmap": "Wartelisten-Heatmap",
-    "waitlistTable": "Warteliste (Einträge)",
-    "filter": "Filter",
-    "logout": "Logout"
   },
   "login": {
     "email": "E-Mail",
