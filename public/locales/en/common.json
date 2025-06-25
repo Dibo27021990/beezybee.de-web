@@ -19,68 +19,92 @@
       "label": "Seekers",
       "examples": "e.g. families, elderly"
     },
+    "hel{
+  "hero": {
+    "claim": "Helperbee – Help. Instantly. Near you.",
+    "downloadApp": "Download App",
+    "joinWaitlist": "Join waitlist",
+    "bullet1": "Find help",
+    "bullet2": "Earn money",
+    "bullet3": "Local, instant, fair"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "step1": "Create tasks or offer help and earn money",
+    "step2": "Automatic price and match suggestions via AI",
+    "step3": "Get or give help, get reviewed and earn Beecoins"
+  },
+  "forWhom": {
+    "title": "Who is Helperbee for?",
+    "seekers": {
+      "label": "Seekers",
+      "examples": "e.g. families, seniors"
+    },
     "helpers": {
       "label": "Helpers",
-      "examples": "e.g. students, retirees"
+      "examples": "e.g. students, handymen"
     }
   },
   "whyDifferent": {
     "title": "Why we're different",
     "points": [
-      "Local & personal",
+      "Regional & personal",
       "AI-powered fairness",
-      "Community-based system",
-      "Trust & safety"
+      "Community system",
+      "Security and trust"
     ]
   },
   "rewards": {
     "title": "Reward System",
-    "description": "HelperPoints reward your engagement. For every successful task you earn points – redeemable for exclusive perks. This feature will be available soon."
+    "description": "HelperPoints reward your commitment: For each successful help, you earn points that can be exchanged for exclusive benefits."
   },
   "waitlist": {
-    "title": "Join the waitlist",
-    "subtitle": "Helperbee not yet available in your area? Sign up here:",
-    "fieldEmail": "Email address",
-    "fieldZip": "Postal code",
+    "title": "Join Waitlist",
+    "subtitle": "Helperbee not available in your area yet? Enter your info:",
+    "fieldEmail": "Email Address",
+    "fieldZip": "Postal Code",
     "fieldRole": "I want to...",
-    "roleSeeker": "find help",
-    "roleHelper": "offer help and earn money",
+    "roleSeeker": "Find help",
+    "roleHelper": "Offer help and earn money",
     "submit": "Join the waitlist",
-    "success": "Thanks! We've received your registration."
-  },
-  "bureaucracy": {
-    "title": "Bureaucracy made easy",
-    "tabs": {
-      "taxFree": "Help without taxes",
-      "businessLicense": "Business license",
-      "taxOffice": "Trade tax",
-      "taxAdvisor": "Tax advisor"
-    },
-    "contents": {
-      "taxFree": "You can help without a business license as long as you earn under €8,000/year. Ideal for occasional jobs – no hassle!",
-      "businessLicense": "For regular earnings, we recommend registering a business. Easy and fast online process.",
-      "taxOffice": "Trade tax is only due after €24,500 profit/year. Below that you’re exempt.",
-      "taxAdvisor": "Our partner tax advisors support you! Send us a support ticket with the subject 'Tax advisor' – we'll connect you directly."
-    }
+    "success": "Thanks! Your submission has been received."
   },
   "support": {
     "title": "Support Center",
-    "subtitle": "Problems or feedback? Send us a ticket:",
+    "subtitle": "Got a problem or feedback? Send us a ticket:",
     "fieldCategory": "Category",
     "fieldMessage": "Message",
     "fieldEmail": "Your email",
     "categories": {
-      "appIssue": "App doesn't work",
+      "appIssue": "App isn't working",
       "account": "Account issue",
-      "other": "Other request"
+      "other": "Other concern"
     },
-    "submit": "Send ticket",
-    "success": "Thanks! Your ticket was submitted."
+    "submit": "Submit ticket",
+    "success": "Thank you! Your ticket has been submitted."
+  },
+  "admin": {
+    "dashboardTitle": "Admin Dashboard",
+    "newTickets": "New Support Tickets",
+    "waitlistHeatmap": "Waitlist Heatmap",
+    "waitlistTable": "Waitlist (entries)",
+    "filter": "Filter",
+    "logout": "Logout"
   },
   "login": {
     "email": "Email",
     "password": "Password",
     "loginButton": "Login",
     "error": "Login failed. Please check your credentials."
-  }
-}
+  },
+  "bureaucracy": {
+    "title": "Bureaucracy made simple",
+    "tabs": {
+      "taxFree": "Help tax-free",
+      "businessLicense": "Business license",
+      "taxOffice": "Business tax",
+      "taxAdvisor": "Tax advisor"
+    },
+    "contents": {
+      "taxFree": "You can help without a business license as long as you earn under €8000/year. Perfect for occasional help – simple and legal!",
+      "businessLicense": "For regular earnings,
