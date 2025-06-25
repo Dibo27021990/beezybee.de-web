@@ -1,4 +1,4 @@
-import './globals.css';
+import './styles/globals.css';
 import StickyHeader from '@/components/StickyHeader';
 import { dir } from 'i18next';
 import { languages } from '@/i18n/settings';
