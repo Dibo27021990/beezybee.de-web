@@ -1,35 +1,39 @@
 'use client';
+
 import Link from 'next/link';
-import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 export default function StickyHeader() {
   const { t } = useTranslation();
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-[#333] text-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <div className="flex items-center space-x-3">
-          <Image
-            src="/images/logo.png"
-            alt="Helperbee Logo"
-            width={40}
-            height={40}
-            className="rounded-full"
-          />
-          <span className="font-semibold text-lg">Helperbee</span>
-        </div>
-        <nav className="space-x-4 hidden md:block">
-          <Link href="/#home" className="hover:text-yellow-400">{t('tabs.home')}</Link>
-          <Link href="/#how" className="hover:text-yellow-400">{t('tabs.how')}</Link>
-          <Link href="/#rewards" className="hover:text-yellow-400">{t('tabs.rewards')}</Link>
-          <Link href="/#waitlist" className="hover:text-yellow-400">{t('tabs.waitlist')}</Link>
-          <Link href="/#support" className="hover:text-yellow-400">{t('tabs.support')}</Link>
-        </nav>
-        <div className="md:hidden">
-          {/* Mobile Menü folgt später */}
-        </div>
-      </div>
+    <header className="fixed top-0 left-0 w-full bg-[#333] text-white flex justify-between items-center px-4 py-3 z-50 shadow-md">
+      <Link href="/">
+        <Image
+          src="/images/logo.png"
+          alt="Helperbee Logo"
+          width={40}
+          height={40}
+          className="cursor-pointer"
+        />
+      </Link>
+      <nav className="hidden md:flex gap-4 text-sm">
+        <Link href="/" className="hover:underline">{t('tabs.home')}</Link>
+        <Link href="/how-it-works" className="hover:underline">{t('tabs.howItWorks')}</Link>
+        <Link href="/rewards" className="hover:underline">{t('tabs.rewards')}</Link>
+        <Link href="/availability" className="hover:underline">{t('tabs.availability')}</Link>
+        <Link href="/support" className="hover:underline">{t('tabs.support')}</Link>
+      </nav>
+      <Link href="/login">
+        <Image
+          src="/images/profile-icon.png"
+          alt="Login"
+          width={32}
+          height={32}
+          className="cursor-pointer"
+        />
+      </Link>
     </header>
   );
 }
