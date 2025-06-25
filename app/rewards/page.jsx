@@ -10,10 +10,10 @@ export default function RewardsPage() {
     <>
       <StickyHeader />
       <main className="min-h-screen bg-white px-4 py-16">
-        <h2 className="text-2xl font-bold text-center mb-6">{t('rewards.title')}</h2>
-        <p className="text-center mb-8 text-gray-700">{t('rewards.description')}</p>
-        <p className="text-center text-yellow-600 text-lg font-semibold">
-          {t('rewards.comingSoon')}
+        <h2 className="text-2xl font-bold text-center mb-8">{t('rewards.title')}</h2>
+        <p className="text-center text-gray-700 mb-6">{t('rewards.description')}</p>
+        <p className="text-center text-orange-600 mt-4 italic">
+          {t('rewards.soon')}
         </p>
       </main>
     </>
