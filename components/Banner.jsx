@@ -3,14 +3,21 @@ import Image from 'next/image';
 
 export default function Banner() {
   return (
-    <div className="w-full flex justify-center mt-4 mb-6">
-      <Image
-        src="/images/banner.jpg"
-        alt="Helperbee Banner"
-        width={200}
-        height={100}
-        className="object-contain"
-      />
+    <div className="w-full mt-4 mb-6">
+      <picture>
+        <source
+          srcSet="/images/BannerMobile.png"
+          media="(max-width: 768px)"
+        />
+        <Image
+          src="/images/BannerDesktop.png"
+          alt="Helperbee Banner"
+          width={1200}
+          height={400}
+          className="w-full h-auto object-cover"
+          priority
+        />
+      </picture>
     </div>
   );
 }
