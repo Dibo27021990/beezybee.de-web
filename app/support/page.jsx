@@ -14,3 +14,4 @@ export default function SupportPage() {
       <SupportForm />
     </main>
   );
+}
