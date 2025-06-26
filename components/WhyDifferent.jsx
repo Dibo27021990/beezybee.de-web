@@ -1,10 +1,14 @@
 'use client';
+
 import { useTranslation } from 'react-i18next';
 import { FaCheckCircle } from 'react-icons/fa';
 
 export default function WhyDifferent() {
   const { t } = useTranslation();
-  const points = t('whyDifferent.points', { returnObjects: true });
+
+  // Rückgabe absichern: Falls kein Array, verwende leeres Array
+  const rawPoints = t('whyDifferent.points', { returnObjects: true });
+  const points = Array.isArray(rawPoints) ? rawPoints : [];
 
   return (
     <section className="py-16 px-4 bg-white">
