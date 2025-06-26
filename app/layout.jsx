@@ -1,7 +1,7 @@
 import './styles/globals.css';
 import StickyHeader from '@/components/StickyHeader';
 import { dir } from 'i18next';
-import { languages } from '@/i18n/settings';
+import { languages } from '@/lib/i18n';
 
 export function generateStaticParams() {
   return languages.map((lng) => ({ lng }));
