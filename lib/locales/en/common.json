@@ -1,6 +1,13 @@
 {
+  "header": {
+    "title": "Helperbee – Find help or earn money",
+    "webapp": "Go to WebApp",
+    "download": "Download now"
+  },
   "hero": {
     "claim": "Helperbee – Help. Instantly. Near you.",
+    "subtitle": "Find or offer help. Fast. Fair. Local.",
+    "howitworks": "How does Helperbee work?",
     "downloadApp": "Download App",
     "joinWaitlist": "Join waitlist",
     "bullet1": "Find help",
@@ -94,5 +101,15 @@
   "error": {
     "pageNotFound": "The page could not be found.",
     "backToHome": "Back to homepage"
+  },
+  "legal": {
+    "impressum": "Imprint",
+    "datenschutz": "Privacy Policy",
+    "agb": "Terms & Conditions",
+    "nutzung": "User Agreement"
+  },
+  "footer": {
+    "mission": "Helperbee ©2025 – Empowering local help.",
+    "disclaimer": "All helpers confirm their own qualifications. Helperbee only connects people."
   }
 }
