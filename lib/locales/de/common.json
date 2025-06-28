@@ -111,5 +111,41 @@
   "footer": {
     "mission": "Helperbee ©2025 – Gemeinsam helfen, fair bezahlt.",
     "disclaimer": "Alle Helfer bestätigen eigenverantwortlich ihre Qualifikation. Helperbee vermittelt nur."
+  },
+  "trust": {
+    "title": "Warum Helperbee?",
+    "item1": {
+      "title": "Fair & Sicher",
+      "text": "Alle Jobs transparent, DSGVO-konform & rechtlich abgesichert."
+    },
+    "item2": {
+      "title": "Gemeinschaft",
+      "text": "Bewertungen, Favoriten, Zuverlässigkeit – Vertrauen zählt."
+    },
+    "item3": {
+      "title": "KI statt Chaos",
+      "text": "Helperbee nutzt moderne GPT-Technologie für Matching, Preise & Schutz."
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Nutzer sagen",
+    "item1": {
+      "text": "\"Endlich faire Nachbarschaftshilfe – so einfach wie Uber!\"",
+      "author": "– Julia, Köln"
+    },
+    "item2": {
+      "text": "\"Ich verdiene mir als Musiker was dazu – dank Helperbee!\"",
+      "author": "– Samir, Hamburg"
+    },
+    "item3": {
+      "text": "\"Meine Oma bekommt endlich Hilfe beim Einkauf – zuverlässig.\"",
+      "author": "– Lisa, München"
+    }
+  },
+  "screenshots": {
+    "title": "Einblicke in die App",
+    "alt1": "Startscreen",
+    "alt2": "Bewerbung",
+    "alt3": "Profil"
   }
 }
