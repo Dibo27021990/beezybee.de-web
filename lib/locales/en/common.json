@@ -111,5 +111,41 @@
   "footer": {
     "mission": "Helperbee ©2025 – Empowering local help.",
     "disclaimer": "All helpers confirm their own qualifications. Helperbee only connects people."
+  },
+  "trust": {
+    "title": "Why Helperbee?",
+    "item1": {
+      "title": "Fair & Secure",
+      "text": "All jobs transparent, GDPR-compliant & legally secured."
+    },
+    "item2": {
+      "title": "Community",
+      "text": "Reviews, favorites, reliability – trust matters."
+    },
+    "item3": {
+      "title": "AI not Chaos",
+      "text": "Helperbee uses modern GPT technology for matching, pricing & protection."
+    }
+  },
+  "testimonials": {
+    "title": "What our users say",
+    "item1": {
+      "text": "\"Finally fair neighborhood help – as easy as Uber!\"",
+      "author": "– Julia, Cologne"
+    },
+    "item2": {
+      "text": "\"I earn extra as a musician – thanks to Helperbee!\"",
+      "author": "– Samir, Hamburg"
+    },
+    "item3": {
+      "text": "\"My grandma finally gets help with shopping – reliable.\"",
+      "author": "– Lisa, Munich"
+    }
+  },
+  "screenshots": {
+    "title": "A look into the app",
+    "alt1": "Startscreen",
+    "alt2": "Application",
+    "alt3": "Profile"
   }
 }
