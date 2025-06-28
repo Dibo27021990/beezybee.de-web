@@ -48,8 +48,55 @@ export default function WaitlistPage() {
             </button>
           </form>
         )}
+
+        {/* Trust Section */}
+        <section id="trust" className="py-8 bg-[#fff9d1] mt-16">
+          <h2 className="text-xl font-bold text-center mb-8">{t('trust.title')}</h2>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex-1 min-w-[250px]">
+              <h3 className="text-lg font-semibold mb-2">🔒 {t('trust.item1.title')}</h3>
+              <p>{t('trust.item1.text')}</p>
+            </div>
+            <div className="flex-1 min-w-[250px]">
+              <h3 className="text-lg font-semibold mb-2">🤝 {t('trust.item2.title')}</h3>
+              <p>{t('trust.item2.text')}</p>
+            </div>
+            <div className="flex-1 min-w-[250px]">
+              <h3 className="text-lg font-semibold mb-2">🚀 {t('trust.item3.title')}</h3>
+              <p>{t('trust.item3.text')}</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials */}
+        <section id="testimonials" className="py-8 bg-gray-100">
+          <h2 className="text-xl font-bold text-center mb-8">{t('testimonials.title')}</h2>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex-1 min-w-[200px] bg-white p-4 rounded shadow">
+              <p>{t('testimonials.item1.text')}</p>
+              <strong>{t('testimonials.item1.author')}</strong>
+            </div>
+            <div className="flex-1 min-w-[200px] bg-white p-4 rounded shadow">
+              <p>{t('testimonials.item2.text')}</p>
+              <strong>{t('testimonials.item2.author')}</strong>
+            </div>
+            <div className="flex-1 min-w-[200px] bg-white p-4 rounded shadow">
+              <p>{t('testimonials.item3.text')}</p>
+              <strong>{t('testimonials.item3.author')}</strong>
+            </div>
+          </div>
+        </section>
+
+        {/* App Screens Preview */}
+        <section id="screenshots" className="py-8 bg-white">
+          <h2 className="text-xl font-bold text-center mb-8">{t('screenshots.title')}</h2>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <img src="/public/images/appscreen1.png" alt={t('screenshots.alt1')} className="w-[250px] rounded-xl" />
+            <img src="/public/images/appscreen2.png" alt={t('screenshots.alt2')} className="w-[250px] rounded-xl" />
+            <img src="/public/images/appscreen3.png" alt={t('screenshots.alt3')} className="w-[250px] rounded-xl" />
+          </div>
+        </section>
       </main>
     </>
   );
 }
-
