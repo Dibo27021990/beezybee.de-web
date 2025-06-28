@@ -1,6 +1,13 @@
 {
+  "header": {
+    "title": "Helperbee – Hilfe finden & Geld verdienen",
+    "webapp": "Zur WebApp",
+    "download": "Jetzt downloaden"
+  },
   "hero": {
     "claim": "Helperbee – Hilfe. Sofort. In deiner Nähe.",
+    "subtitle": "Finde Hilfe oder biete sie an. Schnell. Fair. Lokal.",
+    "howitworks": "Wie funktioniert Helperbee?",
     "downloadApp": "App herunterladen",
     "joinWaitlist": "Warteliste beitreten",
     "bullet1": "Hilfe finden",
@@ -94,5 +101,15 @@
   "error": {
     "pageNotFound": "Die Seite konnte nicht gefunden werden.",
     "backToHome": "Zurück zur Startseite"
+  },
+  "legal": {
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "agb": "AGB",
+    "nutzung": "Nutzungsbedingungen"
+  },
+  "footer": {
+    "mission": "Helperbee ©2025 – Gemeinsam helfen, fair bezahlt.",
+    "disclaimer": "Alle Helfer bestätigen eigenverantwortlich ihre Qualifikation. Helperbee vermittelt nur."
   }
 }
