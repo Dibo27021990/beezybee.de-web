@@ -1,3 +1,4 @@
+// app/layout.jsx
 import '@/styles/globals.css';
 import StickyHeader from '@/components/StickyHeader';
 import { dir } from 'i18next';
