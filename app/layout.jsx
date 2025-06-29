@@ -1,17 +1,15 @@
-// app/layout.jsx
-'use client';
+// Beispiel app/layout.jsx
+import { dir } from 'i18next';
+import { languages } from '../lib/i18n';
 
-import '@/styles/globals.css';
-import { appWithTranslation } from '@/lib/i18n';
-import StickyHeader from '@/components/StickyHeader';
-
-function MyApp({ children }) {
-  return (
-    <>
-      <StickyHeader />
-      {children}
-    </>
-  );
+export async function generateStaticParams() {
+  return languages.map((lng) => ({ lng }));
 }
 
-export default appWithTranslation(MyApp);
+export default function RootLayout({ children, params: { lng } }) {
+  return (
+    <html lang={lng} dir={dir(lng)}>
+      <body>{children}</body>
+    </html>
+  );
+}
