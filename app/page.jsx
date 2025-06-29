@@ -1,12 +1,11 @@
-// app/page.jsx
 'use client';
 
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from '@/lib/i18n';
 import StickyHeader from '@/components/StickyHeader';
 
 export default function WaitlistPage() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('common');
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
