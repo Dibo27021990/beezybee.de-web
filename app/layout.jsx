@@ -1,24 +1,17 @@
 // app/layout.jsx
+'use client';
+
 import '@/styles/globals.css';
+import { appWithTranslation } from '@/lib/i18n';
 import StickyHeader from '@/components/StickyHeader';
-import { dir } from 'i18next';
-import { languages } from '@/lib/i18n';
 
-export function generateStaticParams() {
-  return languages.map((lng) => ({ lng }));
-}
-
-export const metadata = {
-  title: 'Helperbee',
-};
-
-export default function RootLayout({ children, params: { lng } }) {
+function MyApp({ children }) {
   return (
-    <html lang={lng} dir={dir(lng)}>
-      <body>
-        <StickyHeader lng={lng} />
-        {children}
-      </body>
-    </html>
+    <>
+      <StickyHeader />
+      {children}
+    </>
   );
 }
+
+export default appWithTranslation(MyApp);
