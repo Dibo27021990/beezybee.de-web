@@ -1,11 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const { i18n } = require('./next-i18next.config');
+
+module.exports = {
   reactStrictMode: true,
+  i18n,
   experimental: {
-    serverComponentsExternalPackages: ['undici'] // nötig für Firebase/undici
+    serverComponentsExternalPackages: ['undici'],
   },
   webpack: (config) => {
-    // Mapbox GL Fix: verhindert Probleme mit WebGL im SSR
     config.resolve.fallback = {
       ...config.resolve.fallback,
       fs: false,
@@ -18,5 +19,3 @@ const nextConfig = {
     return config;
   }
 };
-
-module.exports = nextConfig;
