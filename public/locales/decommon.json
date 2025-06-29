@@ -1,0 +1,151 @@
+{
+  "header": {
+    "title": "Helperbee – Hilfe finden & Geld verdienen",
+    "webapp": "Zur WebApp",
+    "download": "Jetzt downloaden"
+  },
+  "hero": {
+    "claim": "Helperbee – Hilfe. Sofort. In deiner Nähe.",
+    "subtitle": "Finde Hilfe oder biete sie an. Schnell. Fair. Lokal.",
+    "howitworks": "Wie funktioniert Helperbee?",
+    "downloadApp": "App herunterladen",
+    "joinWaitlist": "Warteliste beitreten",
+    "bullet1": "Hilfe finden",
+    "bullet2": "Geld verdienen",
+    "bullet3": "Alles lokal, sofort, fair"
+  },
+  "howItWorks": {
+    "title": "So funktioniert es",
+    "step1": "Aufträge erstellen oder Hilfe anbieten und dabei Geld verdienen",
+    "step2": "Automatische Preis- und Matchingvorschläge durch unsere KI",
+    "step3": "Hilfe bekommen oder geben, bewerten und Beecoins verdienen"
+  },
+  "forWhom": {
+    "title": "Für wen ist Helperbee?",
+    "seekers": {
+      "label": "Suchende",
+      "examples": "z. B. Familien, Senioren"
+    },
+    "helpers": {
+      "label": "Helfer:innen",
+      "examples": "z. B. Studierende, Handwerker"
+    }
+  },
+  "whyDifferent": {
+    "title": "Warum wir anders sind",
+    "points": [
+      "Regional & persönlich",
+      "KI-gestützte Fairness",
+      "Community-System",
+      "Sicherheit und Vertrauen"
+    ]
+  },
+  "rewards": {
+    "title": "Belohnungssystem",
+    "description": "HelperPoints belohnen dein Engagement: Für jede erfolgreiche Hilfe erhältst du Punkte, die du gegen exklusive Vorteile einlösen kannst."
+  },
+  "waitlist": {
+    "title": "Warteliste beitreten",
+    "subtitle": "Helperbee bei dir noch nicht verfügbar? Trag dich hier ein:",
+    "fieldEmail": "E-Mail-Adresse",
+    "fieldZip": "Postleitzahl",
+    "fieldRole": "Ich möchte...",
+    "roleSeeker": "Hilfe finden",
+    "roleHelper": "helfen und Geld verdienen",
+    "submit": "In Warteliste eintragen",
+    "success": "Danke! Wir haben deine Anmeldung erhalten."
+  },
+  "support": {
+    "title": "Support-Center",
+    "subtitle": "Hast du ein Problem oder Feedback? Sende uns ein Ticket:",
+    "fieldCategory": "Kategorie",
+    "fieldMessage": "Nachricht",
+    "fieldEmail": "Deine E-Mail",
+    "categories": {
+      "appIssue": "App funktioniert nicht",
+      "account": "Problem mit Account",
+      "other": "Anderes Anliegen"
+    },
+    "submit": "Ticket absenden",
+    "success": "Vielen Dank! Dein Ticket wurde gesendet."
+  },
+  "admin": {
+    "dashboardTitle": "Admin-Dashboard",
+    "newTickets": "Neue Support-Tickets",
+    "waitlistHeatmap": "Wartelisten-Heatmap",
+    "waitlistTable": "Warteliste (Einträge)",
+    "filter": "Filter",
+    "logout": "Logout"
+  },
+  "login": {
+    "email": "E-Mail",
+    "password": "Passwort",
+    "loginButton": "Einloggen",
+    "error": "Login fehlgeschlagen. Bitte Zugangsdaten prüfen."
+  },
+  "bureaucracy": {
+    "title": "Bürokratie einfach gemacht",
+    "tabs": {
+      "taxFree": "Steuerfrei helfen",
+      "businessLicense": "Gewerbeschein",
+      "taxOffice": "Gewerbesteuer",
+      "taxAdvisor": "Steuerberatung"
+    },
+    "contents": {
+      "taxFree": "Du kannst ohne Gewerbe helfen, solange du unter 8000 €/Jahr verdienst. Ideal für gelegentliche Hilfe – ganz unkompliziert!",
+      "businessLicense": "Ab regelmäßigen Einnahmen empfehlen wir einen Gewerbeschein. Die Anmeldung ist einfach und online möglich.",
+      "taxOffice": "Gewerbesteuer fällt erst ab ca. 24.500 € Gewinn an. Darunter bleibst du steuerfrei.",
+      "taxAdvisor": "Unsere Partner-Steuerberater helfen dir! Schick uns ein Support-Ticket mit dem Betreff „Steuerberater“ – wir verbinden dich direkt."
+    }
+  },
+  "error": {
+    "pageNotFound": "Die Seite konnte nicht gefunden werden.",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "legal": {
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "agb": "AGB",
+    "nutzung": "Nutzungsbedingungen"
+  },
+  "footer": {
+    "mission": "Helperbee ©2025 – Gemeinsam helfen, fair bezahlt.",
+    "disclaimer": "Alle Helfer bestätigen eigenverantwortlich ihre Qualifikation. Helperbee vermittelt nur."
+  },
+  "trust": {
+    "title": "Warum Helperbee?",
+    "item1": {
+      "title": "Fair & Sicher",
+      "text": "Alle Jobs transparent, DSGVO-konform & rechtlich abgesichert."
+    },
+    "item2": {
+      "title": "Gemeinschaft",
+      "text": "Bewertungen, Favoriten, Zuverlässigkeit – Vertrauen zählt."
+    },
+    "item3": {
+      "title": "KI statt Chaos",
+      "text": "Helperbee nutzt moderne GPT-Technologie für Matching, Preise & Schutz."
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Nutzer sagen",
+    "item1": {
+      "text": "\"Endlich faire Nachbarschaftshilfe – so einfach wie Uber!\"",
+      "author": "– Julia, Köln"
+    },
+    "item2": {
+      "text": "\"Ich verdiene mir als Musiker was dazu – dank Helperbee!\"",
+      "author": "– Samir, Hamburg"
+    },
+    "item3": {
+      "text": "\"Meine Oma bekommt endlich Hilfe beim Einkauf – zuverlässig.\"",
+      "author": "– Lisa, München"
+    }
+  },
+  "screenshots": {
+    "title": "Einblicke in die App",
+    "alt1": "Startscreen",
+    "alt2": "Bewerbung",
+    "alt3": "Profil"
+  }
+}
