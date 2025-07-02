@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { useTranslation } from 'react-i18next';
+import { useTranslations } from 'next-intl';
 
 export default function HeroSection() {
   const { t } = useTranslation();

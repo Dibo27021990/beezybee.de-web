@@ -1,7 +1,16 @@
-// next.config.js
-const { i18n } = require('./lib/i18n');
-
 module.exports = {
   reactStrictMode: true,
-  i18n,
+serverExternalPackages: ['undici'],
+  webpack: (config) => {
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false,
+      net: false,
+      tls: false,
+      module: false,
+      stream: false,
+      assert: false
+    };
+    return config;
+  }
 };

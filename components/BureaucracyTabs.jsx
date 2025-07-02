@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 export default function BureaucracyTabs() {

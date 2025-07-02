@@ -1,10 +1,11 @@
 'use client';
 import Link from 'next/link';
-import { useTranslation } from 'react-i18next';
+import { useTranslations } from 'next-intl';
+
 import Image from 'next/image';
 
-export default function StickyHeader() {
-  const { t } = useTranslation();
+export default function Page() {
+  return <h1>Testseite Helperbee</h1>;
 
   const tabs = [
     { href: '/', label: t('nav.home') },
