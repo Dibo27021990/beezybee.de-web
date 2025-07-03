@@ -1,151 +1,163 @@
 {
-  "header": {
-    "title": "Helperbee – Find help or earn money",
-    "webapp": "Go to WebApp",
-    "download": "Download now"
+  "app": {
+    "name": "Beezybee",
+    "slogan": "Soforthilfe. Leihen. Geld verdienen."
   },
-  "hero": {
-    "claim": "Helperbee – Help. Instantly. Near you.",
-    "subtitle": "Find or offer help. Fast. Fair. Local.",
-    "howitworks": "How does Helperbee work?",
-    "downloadApp": "Download App",
-    "joinWaitlist": "Join waitlist",
-    "bullet1": "Find help",
-    "bullet2": "Earn money",
-    "bullet3": "Local, instant, fair"
+  "tabs": {
+    "home": "Home",
+    "offers": "Angebote",
+    "seeker": "Anfrage",
+    "rewards": "Rewards",
+    "profile": "Profil"
   },
-  "howItWorks": {
-    "title": "How it works",
-    "step1": "Create tasks or offer help and earn money",
-    "step2": "Automatic price and match suggestions via AI",
-    "step3": "Get or give help, get reviewed and earn Beecoins"
+  "home": {
+    "headline": "Willkommen bei Beezybee",
+    "cta": "Ich möchte jetzt Hilfe suchen",
+    "howto": "So funktioniert Beezybee",
+    "feature1": "Soforthilfe & Leihen",
+    "feature2": "Beecoins & Rewards",
+    "feature3": "Rechtssicher & Fair",
+    "noOffers": "Aktuell keine Angebote in deiner Nähe.",
+    "emptyState": "Noch keine Anfragen. Starte jetzt mit Beezybee!"
   },
-  "forWhom": {
-    "title": "Who is Helperbee for?",
-    "seekers": {
-      "label": "Seekers",
-      "examples": "e.g. families, seniors"
+  "offers": {
+    "headline": "Angebote in deiner Nähe",
+    "toggle": {
+      "beezybee": "Beezybee",
+      "borrowbee": "Borrowbee",
+      "companybee": "Companybee"
     },
-    "helpers": {
-      "label": "Helpers",
-      "examples": "e.g. students, handymen"
-    }
+    "filter": {
+      "all": "Alle",
+      "household": "Haushalt",
+      "moving": "Umzug",
+      "category": "Kategorie",
+      "distance": "Distanz",
+      "price": "Preis",
+      "date": "Datum"
+    },
+    "empty": "Keine passenden Angebote gefunden."
   },
-  "whyDifferent": {
-    "title": "Why we're different",
-    "points": [
-      "Regional & personal",
-      "AI-powered fairness",
-      "Community system",
-      "Security and trust"
-    ]
+  "smartform": {
+    "title": "Was brauchst du?",
+    "subtitle": "Beschreibe kurz, was du suchst. Die KI wählt automatisch das richtige Formular für dich.",
+    "placeholder": "Z.B. Ich suche Hilfe beim Umzug, Ich will meinen Bohrhammer verleihen…",
+    "cta": "Absenden",
+    "loading": "Einen Moment, die KI wertet deine Anfrage aus …"
+  },
+  "helperform": {
+    "title": "Neuen Auftrag einstellen",
+    "category": "Kategorie (z.B. Reinigung)",
+    "description": "Beschreibung",
+    "date": "Datum & Uhrzeit",
+    "location": "Ort",
+    "price": "Dein Wunschpreis (€)",
+    "submit": "Auftrag einstellen"
+  },
+  "borrowform": {
+    "title": "Leihobjekt einstellen",
+    "upload": "Foto hochladen",
+    "titleInput": "Titel (z.B. Bohrmaschine)",
+    "description": "Beschreibung",
+    "price": "Preis pro Tag (€)",
+    "location": "Standort",
+    "submit": "Leihobjekt einstellen"
+  },
+  "application": {
+    "title": "Jetzt bewerben",
+    "placeholder": "Kurze Nachricht an den Auftraggeber...",
+    "send": "Bewerbung absenden"
+  },
+  "profile": {
+    "headline": "Mein Profil",
+    "editTitle": "Profil bearbeiten",
+    "editAvatar": "Avatar ändern",
+    "username": "Benutzername",
+    "bio": "Über mich",
+    "save": "Speichern"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "privacy": "Datenschutz",
+    "terms": "AGB & Nutzungsbedingungen",
+    "delete": "Account löschen",
+    "deleteTitle": "Account wirklich löschen?",
+    "deleteMsg": "Willst du deinen Beezybee-Account endgültig löschen?"
   },
   "rewards": {
-    "title": "Reward System",
-    "description": "HelperPoints reward your commitment: For each successful help, you earn points that can be exchanged for exclusive benefits."
+    "title": "Rewards & Ranking",
+    "info": "Für jeden Auftrag und jede Anfrage sammelst du Beecoins und steigst im Ranking!",
+    "referral": "Freunde werben Freunde",
+    "refText": "Lade Freunde ein und sammle 20 Beecoins pro erfolgreicher Einladung.",
+    "copy": "Link kopieren",
+    "copied": "Kopiert!",
+    "leaderboard": "Top-Bienen im Ranking",
+    "noRewards": "Noch keine Rewards – leg los!",
+    "myCoins": "Meine Beecoins",
+    "myRank": "Mein Rang"
   },
-  "waitlist": {
-    "title": "Join Waitlist",
-    "subtitle": "Helperbee not available in your area yet? Enter your info:",
-    "fieldEmail": "Email Address",
-    "fieldZip": "Postal Code",
-    "fieldRole": "I want to...",
-    "roleSeeker": "Find help",
-    "roleHelper": "Offer help and earn money",
-    "submit": "Join the waitlist",
-    "success": "Thanks! Your submission has been received."
+  "howto": {
+    "title": "So funktioniert Beezybee",
+    "step1": "1. Auftrag oder Leihobjekt einstellen",
+    "step2": "2. KI-Vorschlag & Bewerbung abwarten",
+    "step3": "3. Helfer wählen, Job starten, bewerten & Beecoins verdienen",
+    "tip": "Alle Abläufe sind fair, transparent und KI-gestützt.",
+    "companyHint": "Für Firmen gibt es eigene Aufträge – einfach beim Erstellen auswählen."
   },
-  "support": {
-    "title": "Support Center",
-    "subtitle": "Got a problem or feedback? Send us a ticket:",
-    "fieldCategory": "Category",
-    "fieldMessage": "Message",
-    "fieldEmail": "Your email",
-    "categories": {
-      "appIssue": "App isn't working",
-      "account": "Account issue",
-      "other": "Other concern"
-    },
-    "submit": "Submit ticket",
-    "success": "Thank you! Your ticket has been submitted."
-  },
-  "admin": {
-    "dashboardTitle": "Admin Dashboard",
-    "newTickets": "New Support Tickets",
-    "waitlistHeatmap": "Waitlist Heatmap",
-    "waitlistTable": "Waitlist (entries)",
-    "filter": "Filter",
-    "logout": "Logout"
-  },
-  "login": {
-    "email": "Email",
-    "password": "Password",
-    "loginButton": "Login",
-    "error": "Login failed. Please check your credentials."
-  },
-  "bureaucracy": {
-    "title": "Bureaucracy made simple",
-    "tabs": {
-      "taxFree": "Help tax-free",
-      "businessLicense": "Business license",
-      "taxOffice": "Business tax",
-      "taxAdvisor": "Tax advisor"
-    },
-    "contents": {
-      "taxFree": "You can help without a business license as long as you earn under €8000/year. Perfect for occasional help – simple and legal!",
-      "businessLicense": "For regular earnings, we recommend a business license. Registering is quick and easy online.",
-      "taxOffice": "Business tax applies only above approx. €24,500 profit. Below that, you're tax-free.",
-      "taxAdvisor": "Our partner tax advisors will support you! Just send a support ticket with the subject 'Tax Advisor' – we’ll connect you."
-    }
-  },
-  "error": {
-    "pageNotFound": "The page could not be found.",
-    "backToHome": "Back to homepage"
+  "faq": {
+    "title": "Häufige Fragen",
+    "q1": "Wie funktioniert die Preisermittlung?",
+    "a1": "Unsere KI schlägt dir einen realistischen Preis vor, den du übernehmen oder anpassen kannst.",
+    "q2": "Kann ich auch Sachen verleihen?",
+    "a2": "Ja! Über Borrowbee kannst du Gegenstände verleihen oder leihen.",
+    "q3": "Muss ich als Helfer ein Gewerbe haben?",
+    "a3": "Ein Gewerbe ist nur für regelmäßige oder größere Einsätze nötig. Lies mehr in den AGB.",
+    "q4": "Wie funktioniert das Rewards-System?",
+    "a4": "Für jeden Abschluss bekommst du Beecoins, die du später gegen Prämien tauschen kannst.",
+    "q5": "Wie läuft die Bezahlung ab?",
+    "a5": "Die Bezahlung läuft digital über Stripe. Das gibt Sicherheit für beide Seiten."
   },
   "legal": {
-    "impressum": "Imprint",
-    "datenschutz": "Privacy Policy",
-    "agb": "Terms & Conditions",
-    "nutzung": "User Agreement"
+    "title": "Rechtliches & Hinweise",
+    "imprint": "Impressum",
+    "terms": "AGB & Nutzungsbedingungen",
+    "privacy": "Datenschutz/DSGVO",
+    "accept": "Ich akzeptiere die Nutzungsbedingungen und Datenschutzbestimmungen.",
+    "liability": "Beezybee vermittelt ausschließlich. Haftung für Lizenzen/Gewerbescheine liegt bei den Nutzern."
   },
-  "footer": {
-    "mission": "Helperbee ©2025 – Empowering local help.",
-    "disclaimer": "All helpers confirm their own qualifications. Helperbee only connects people."
+  "support": {
+    "title": "Support",
+    "email": "Deine E-Mail",
+    "category": "Kategorie",
+    "message": "Deine Nachricht",
+    "send": "Abschicken",
+    "success": "Deine Anfrage wurde gesendet. Wir melden uns!"
   },
-  "trust": {
-    "title": "Why Helperbee?",
-    "item1": {
-      "title": "Fair & Secure",
-      "text": "All jobs transparent, GDPR-compliant & legally secured."
-    },
-    "item2": {
-      "title": "Community",
-      "text": "Reviews, favorites, reliability – trust matters."
-    },
-    "item3": {
-      "title": "AI not Chaos",
-      "text": "Helperbee uses modern GPT technology for matching, pricing & protection."
-    }
+  "empty": {
+    "offers": "Keine passenden Angebote gefunden.",
+    "favorites": "Noch keine Favoriten.",
+    "rewards": "Noch keine Rewards.",
+    "waitlist": "Noch niemand auf der Warteliste."
   },
-  "testimonials": {
-    "title": "What our users say",
-    "item1": {
-      "text": "\"Finally fair neighborhood help – as easy as Uber!\"",
-      "author": "– Julia, Cologne"
-    },
-    "item2": {
-      "text": "\"I earn extra as a musician – thanks to Helperbee!\"",
-      "author": "– Samir, Hamburg"
-    },
-    "item3": {
-      "text": "\"My grandma finally gets help with shopping – reliable.\"",
-      "author": "– Lisa, Munich"
-    }
+  "review": {
+    "step1": { "title": "Wie zufrieden bist du?" },
+    "step2": { "title": "Was lief gut? Dein Feedback" },
+    "step3": { "title": "Trinkgeld geben?" },
+    "step4": { "title": "Möchtest du einen Zusatzauftrag anlegen?" },
+    "step5": { "title": "Fertig! Vielen Dank." },
+    "feedback": { "placeholder": "Dein Feedback…" },
+    "tip": { "placeholder": "z.B. 5 €" },
+    "addjob": { "placeholder": "Was möchtest du zusätzlich beauftragen?" },
+    "success": "Dein Feedback wurde gespeichert! Danke, dass du Beezybee nutzt.",
+    "button": { "back": "Zurück", "next": "Weiter", "finish": "Abschließen" }
   },
-  "screenshots": {
-    "title": "A look into the app",
-    "alt1": "Startscreen",
-    "alt2": "Application",
-    "alt3": "Profile"
+  "common": {
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "send": "Senden",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "copy": "Kopieren"
   }
 }
