@@ -1,163 +1,163 @@
 {
   "app": {
     "name": "Beezybee",
-    "slogan": "Soforthilfe. Leihen. Geld verdienen."
+    "slogan": "Instant help. Borrow. Earn money."
   },
   "tabs": {
     "home": "Home",
-    "offers": "Angebote",
-    "seeker": "Anfrage",
+    "offers": "Offers",
+    "seeker": "Request",
     "rewards": "Rewards",
-    "profile": "Profil"
+    "profile": "Profile"
   },
   "home": {
-    "headline": "Willkommen bei Beezybee",
-    "cta": "Ich möchte jetzt Hilfe suchen",
-    "howto": "So funktioniert Beezybee",
-    "feature1": "Soforthilfe & Leihen",
-    "feature2": "Beecoins & Rewards",
-    "feature3": "Rechtssicher & Fair",
-    "noOffers": "Aktuell keine Angebote in deiner Nähe.",
-    "emptyState": "Noch keine Anfragen. Starte jetzt mit Beezybee!"
+    "headline": "Welcome to Beezybee",
+    "cta": "I want to search for help now",
+    "howto": "How Beezybee works",
+    "feature1": "Instant help & borrowing",
+    "feature2": "Beecoins & rewards",
+    "feature3": "Legally secure & fair",
+    "noOffers": "Currently no offers nearby.",
+    "emptyState": "No requests yet. Start now with Beezybee!"
   },
   "offers": {
-    "headline": "Angebote in deiner Nähe",
+    "headline": "Offers near you",
     "toggle": {
       "beezybee": "Beezybee",
       "borrowbee": "Borrowbee",
       "companybee": "Companybee"
     },
     "filter": {
-      "all": "Alle",
-      "household": "Haushalt",
-      "moving": "Umzug",
-      "category": "Kategorie",
-      "distance": "Distanz",
-      "price": "Preis",
-      "date": "Datum"
+      "all": "All",
+      "household": "Household",
+      "moving": "Moving",
+      "category": "Category",
+      "distance": "Distance",
+      "price": "Price",
+      "date": "Date"
     },
-    "empty": "Keine passenden Angebote gefunden."
+    "empty": "No matching offers found."
   },
   "smartform": {
-    "title": "Was brauchst du?",
-    "subtitle": "Beschreibe kurz, was du suchst. Die KI wählt automatisch das richtige Formular für dich.",
-    "placeholder": "Z.B. Ich suche Hilfe beim Umzug, Ich will meinen Bohrhammer verleihen…",
-    "cta": "Absenden",
-    "loading": "Einen Moment, die KI wertet deine Anfrage aus …"
+    "title": "What do you need?",
+    "subtitle": "Briefly describe what you're looking for. The AI will automatically choose the right form for you.",
+    "placeholder": "E.g. I need help moving, I want to lend my hammer…",
+    "cta": "Submit",
+    "loading": "One moment, the AI is evaluating your request …"
   },
   "helperform": {
-    "title": "Neuen Auftrag einstellen",
-    "category": "Kategorie (z.B. Reinigung)",
-    "description": "Beschreibung",
-    "date": "Datum & Uhrzeit",
-    "location": "Ort",
-    "price": "Dein Wunschpreis (€)",
-    "submit": "Auftrag einstellen"
+    "title": "Create new job",
+    "category": "Category (e.g. Cleaning)",
+    "description": "Description",
+    "date": "Date & Time",
+    "location": "Location",
+    "price": "Your desired price (€)",
+    "submit": "Post job"
   },
   "borrowform": {
-    "title": "Leihobjekt einstellen",
-    "upload": "Foto hochladen",
-    "titleInput": "Titel (z.B. Bohrmaschine)",
-    "description": "Beschreibung",
-    "price": "Preis pro Tag (€)",
-    "location": "Standort",
-    "submit": "Leihobjekt einstellen"
+    "title": "Create borrow listing",
+    "upload": "Upload photo",
+    "titleInput": "Title (e.g. drill)",
+    "description": "Description",
+    "price": "Price per day (€)",
+    "location": "Location",
+    "submit": "Post borrow item"
   },
   "application": {
-    "title": "Jetzt bewerben",
-    "placeholder": "Kurze Nachricht an den Auftraggeber...",
-    "send": "Bewerbung absenden"
+    "title": "Apply now",
+    "placeholder": "Short message to the job creator...",
+    "send": "Send application"
   },
   "profile": {
-    "headline": "Mein Profil",
-    "editTitle": "Profil bearbeiten",
-    "editAvatar": "Avatar ändern",
-    "username": "Benutzername",
-    "bio": "Über mich",
-    "save": "Speichern"
+    "headline": "My Profile",
+    "editTitle": "Edit Profile",
+    "editAvatar": "Change avatar",
+    "username": "Username",
+    "bio": "About me",
+    "save": "Save"
   },
   "settings": {
-    "title": "Einstellungen",
-    "language": "Sprache",
-    "privacy": "Datenschutz",
-    "terms": "AGB & Nutzungsbedingungen",
-    "delete": "Account löschen",
-    "deleteTitle": "Account wirklich löschen?",
-    "deleteMsg": "Willst du deinen Beezybee-Account endgültig löschen?"
+    "title": "Settings",
+    "language": "Language",
+    "privacy": "Privacy",
+    "terms": "Terms & Conditions",
+    "delete": "Delete account",
+    "deleteTitle": "Really delete account?",
+    "deleteMsg": "Do you want to permanently delete your Beezybee account?"
   },
   "rewards": {
     "title": "Rewards & Ranking",
-    "info": "Für jeden Auftrag und jede Anfrage sammelst du Beecoins und steigst im Ranking!",
-    "referral": "Freunde werben Freunde",
-    "refText": "Lade Freunde ein und sammle 20 Beecoins pro erfolgreicher Einladung.",
-    "copy": "Link kopieren",
-    "copied": "Kopiert!",
-    "leaderboard": "Top-Bienen im Ranking",
-    "noRewards": "Noch keine Rewards – leg los!",
-    "myCoins": "Meine Beecoins",
-    "myRank": "Mein Rang"
+    "info": "You collect Beecoins and climb the ranking with every job and request!",
+    "referral": "Refer friends",
+    "refText": "Invite friends and collect 20 Beecoins per successful referral.",
+    "copy": "Copy link",
+    "copied": "Copied!",
+    "leaderboard": "Top bees in the ranking",
+    "noRewards": "No rewards yet – get started!",
+    "myCoins": "My Beecoins",
+    "myRank": "My rank"
   },
   "howto": {
-    "title": "So funktioniert Beezybee",
-    "step1": "1. Auftrag oder Leihobjekt einstellen",
-    "step2": "2. KI-Vorschlag & Bewerbung abwarten",
-    "step3": "3. Helfer wählen, Job starten, bewerten & Beecoins verdienen",
-    "tip": "Alle Abläufe sind fair, transparent und KI-gestützt.",
-    "companyHint": "Für Firmen gibt es eigene Aufträge – einfach beim Erstellen auswählen."
+    "title": "How Beezybee works",
+    "step1": "1. Create a job or borrow item",
+    "step2": "2. Wait for AI suggestion & applications",
+    "step3": "3. Select helper, start job, review & earn Beecoins",
+    "tip": "All processes are fair, transparent and AI-driven.",
+    "companyHint": "For companies, there are separate jobs – just select when creating."
   },
   "faq": {
-    "title": "Häufige Fragen",
-    "q1": "Wie funktioniert die Preisermittlung?",
-    "a1": "Unsere KI schlägt dir einen realistischen Preis vor, den du übernehmen oder anpassen kannst.",
-    "q2": "Kann ich auch Sachen verleihen?",
-    "a2": "Ja! Über Borrowbee kannst du Gegenstände verleihen oder leihen.",
-    "q3": "Muss ich als Helfer ein Gewerbe haben?",
-    "a3": "Ein Gewerbe ist nur für regelmäßige oder größere Einsätze nötig. Lies mehr in den AGB.",
-    "q4": "Wie funktioniert das Rewards-System?",
-    "a4": "Für jeden Abschluss bekommst du Beecoins, die du später gegen Prämien tauschen kannst.",
-    "q5": "Wie läuft die Bezahlung ab?",
-    "a5": "Die Bezahlung läuft digital über Stripe. Das gibt Sicherheit für beide Seiten."
+    "title": "Frequently asked questions",
+    "q1": "How is the price determined?",
+    "a1": "Our AI suggests a realistic price that you can accept or adjust.",
+    "q2": "Can I lend items too?",
+    "a2": "Yes! You can lend or borrow items via Borrowbee.",
+    "q3": "Do I need a business license to be a helper?",
+    "a3": "A business license is only required for regular or larger jobs. See more in the terms.",
+    "q4": "How does the rewards system work?",
+    "a4": "You receive Beecoins for every job you complete, which you can later exchange for rewards.",
+    "q5": "How does payment work?",
+    "a5": "Payment is handled digitally via Stripe. This gives both parties security."
   },
   "legal": {
-    "title": "Rechtliches & Hinweise",
-    "imprint": "Impressum",
-    "terms": "AGB & Nutzungsbedingungen",
-    "privacy": "Datenschutz/DSGVO",
-    "accept": "Ich akzeptiere die Nutzungsbedingungen und Datenschutzbestimmungen.",
-    "liability": "Beezybee vermittelt ausschließlich. Haftung für Lizenzen/Gewerbescheine liegt bei den Nutzern."
+    "title": "Legal & Notices",
+    "imprint": "Imprint",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy/GDPR",
+    "accept": "I accept the terms and privacy policy.",
+    "liability": "Beezybee is a platform only. Liability for licenses/business certificates lies with users."
   },
   "support": {
     "title": "Support",
-    "email": "Deine E-Mail",
-    "category": "Kategorie",
-    "message": "Deine Nachricht",
-    "send": "Abschicken",
-    "success": "Deine Anfrage wurde gesendet. Wir melden uns!"
+    "email": "Your email",
+    "category": "Category",
+    "message": "Your message",
+    "send": "Send",
+    "success": "Your request has been sent. We'll get back to you!"
   },
   "empty": {
-    "offers": "Keine passenden Angebote gefunden.",
-    "favorites": "Noch keine Favoriten.",
-    "rewards": "Noch keine Rewards.",
-    "waitlist": "Noch niemand auf der Warteliste."
+    "offers": "No matching offers found.",
+    "favorites": "No favorites yet.",
+    "rewards": "No rewards yet.",
+    "waitlist": "No one on the waitlist yet."
   },
   "review": {
-    "step1": { "title": "Wie zufrieden bist du?" },
-    "step2": { "title": "Was lief gut? Dein Feedback" },
-    "step3": { "title": "Trinkgeld geben?" },
-    "step4": { "title": "Möchtest du einen Zusatzauftrag anlegen?" },
-    "step5": { "title": "Fertig! Vielen Dank." },
-    "feedback": { "placeholder": "Dein Feedback…" },
-    "tip": { "placeholder": "z.B. 5 €" },
-    "addjob": { "placeholder": "Was möchtest du zusätzlich beauftragen?" },
-    "success": "Dein Feedback wurde gespeichert! Danke, dass du Beezybee nutzt.",
-    "button": { "back": "Zurück", "next": "Weiter", "finish": "Abschließen" }
+    "step1": { "title": "How satisfied are you?" },
+    "step2": { "title": "What went well? Your feedback" },
+    "step3": { "title": "Leave a tip?" },
+    "step4": { "title": "Would you like to create an additional job?" },
+    "step5": { "title": "Done! Thank you." },
+    "feedback": { "placeholder": "Your feedback…" },
+    "tip": { "placeholder": "e.g. 5 €" },
+    "addjob": { "placeholder": "What else would you like to request?" },
+    "success": "Your feedback has been saved! Thank you for using Beezybee.",
+    "button": { "back": "Back", "next": "Next", "finish": "Finish" }
   },
   "common": {
     "ok": "OK",
-    "cancel": "Abbrechen",
-    "send": "Senden",
-    "save": "Speichern",
-    "edit": "Bearbeiten",
-    "copy": "Kopieren"
+    "cancel": "Cancel",
+    "send": "Send",
+    "save": "Save",
+    "edit": "Edit",
+    "copy": "Copy"
   }
 }
