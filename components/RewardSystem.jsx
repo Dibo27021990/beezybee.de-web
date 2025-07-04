@@ -1,5 +1,5 @@
 'use client';
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 import { FaGift } from 'react-icons/fa';
 
 export default function RewardSystem() {
