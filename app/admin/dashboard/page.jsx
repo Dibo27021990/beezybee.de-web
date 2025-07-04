@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { auth, db } from '@/lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 // Assuming react-map-gl is installed for Mapbox
 import Map, { Source, Layer } from 'react-map-gl';
 
