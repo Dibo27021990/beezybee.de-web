@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Seite nicht gefunden - 404</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #fff; color: #333; }
+    h1 { font-size: 4em; color: red; }
+    a { color: #333; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>404</h1>
+  <p>Seite nicht gefunden.</p>
+  <a href="/">Zur Startseite</a>
+</body>
+</html>
