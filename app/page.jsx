@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import StickyHeader from '@/components/StickyHeader';
 
 export default function Page() {
-const t = useTranslations('waitlist');
+  const { t } = useTranslation(); // ✅ FIXED!
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
