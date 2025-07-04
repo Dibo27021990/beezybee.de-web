@@ -159,5 +159,51 @@
     "save": "Speichern",
     "edit": "Bearbeiten",
     "copy": "Kopieren"
+  },
+  "waitlist": {
+    "title": "Warteliste",
+    "subtitle": "Trag dich ein und erfahre als Erste:r vom Launch!",
+    "fieldEmail": "Deine E-Mail-Adresse",
+    "fieldZip": "Postleitzahl",
+    "roleSeeker": "Ich suche Hilfe",
+    "roleHelper": "Ich möchte helfen",
+    "submit": "Eintragen",
+    "success": "Danke für deine Anmeldung! Wir melden uns bald."
+  },
+  "trust": {
+    "title": "Darum kannst du Beezybee vertrauen",
+    "item1": {
+      "title": "Datenschutz",
+      "text": "Alle Daten werden DSGVO-konform verarbeitet."
+    },
+    "item2": {
+      "title": "Verifizierte Nutzer",
+      "text": "Wir prüfen Gewerbe und Lizenzen sorgfältig."
+    },
+    "item3": {
+      "title": "Schneller Start",
+      "text": "In wenigen Minuten registriert und losgelegt."
+    }
+  },
+  "testimonials": {
+    "title": "Was Nutzer:innen sagen",
+    "item1": {
+      "text": "Super einfach – ich hab direkt jemanden gefunden!",
+      "author": "Laura, 28"
+    },
+    "item2": {
+      "text": "Endlich eine Plattform, die fair funktioniert.",
+      "author": "Ali, 34"
+    },
+    "item3": {
+      "text": "Ich konnte schnell und unkompliziert helfen – top!",
+      "author": "Sven, 42"
+    }
+  },
+  "screenshots": {
+    "title": "Einblicke in die App",
+    "alt1": "Screenshot der Startseite",
+    "alt2": "Screenshot der Auftragsübersicht",
+    "alt3": "Screenshot des Bewerbungsprozesses"
   }
 }
