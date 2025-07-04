@@ -1,5 +1,5 @@
 'use client';
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 import SupportForm from './SupportForm';
 
 export default function SupportSection() {
