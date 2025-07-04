@@ -1,5 +1,3 @@
-// app/not-found.jsx
-'use client';
 
 export default function NotFound() {
   return (
