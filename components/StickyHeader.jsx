@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 
 import Image from 'next/image';
 
