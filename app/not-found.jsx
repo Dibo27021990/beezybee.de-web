@@ -28,7 +28,7 @@ export default function NotFound() {
         Seite nicht gefunden.
       </p>
       <Link href="/">
-        <a
+        <span
           style={{
             backgroundColor: '#333',
             color: '#fff',
@@ -38,8 +38,9 @@ export default function NotFound() {
           }}
         >
           Zur Startseite
-        </a>
+        </span>
       </Link>
     </div>
   );
 }
+
