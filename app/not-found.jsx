@@ -2,31 +2,17 @@ import Link from 'next/link';
 
 export default function NotFound() {
   return (
-    <div style={{
-      minHeight: '100vh',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-      padding: 20,
-      backgroundColor: '#fff'
-    }}>
-      <h1 style={{ fontSize: 48, fontWeight: 'bold', color: 'red', marginBottom: 16 }}>404</h1>
-      <p style={{ color: '#333', marginBottom: 32, textAlign: 'center' }}>
+    <div className="min-h-screen flex flex-col justify-center items-center px-5 bg-white">
+      <h1 className="text-6xl font-bold text-red-500 mb-4">404</h1>
+      <p className="text-lg text-gray-800 mb-8 text-center">
         Seite nicht gefunden.
       </p>
-      <Link href="/" legacyBehavior>
-        <a style={{
-          backgroundColor: '#333',
-          color: '#fff',
-          padding: '10px 20px',
-          borderRadius: 4,
-          textDecoration: 'none'
-        }}>
-          Zur Startseite
-        </a>
+      <Link
+        href="/"
+        className="bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition"
+      >
+        Zur Startseite
       </Link>
     </div>
   );
 }
-
