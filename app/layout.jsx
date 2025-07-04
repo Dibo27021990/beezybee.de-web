@@ -1,4 +1,4 @@
-import { NextIntlClientProvider } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 import { Inter } from 'next/font/google';
 import '../styles/globals.css'; // anpassen, je nachdem wo deine styles liegen
 import { notFound } from 'next/navigation';
