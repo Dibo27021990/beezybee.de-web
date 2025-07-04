@@ -1,6 +1,6 @@
 'use client';
 import WaitlistForm from './WaitlistForm';
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 
 export default function WaitlistSection() {
   const { t } = useTranslation();
