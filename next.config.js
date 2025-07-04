@@ -1,15 +1,9 @@
-// next.config.js
-const { i18n } = require('./next-i18next.config');
-
 const nextConfig = {
-  i18n,
   reactStrictMode: true,
   images: {
-    domains: [], // Wenn du externe Bilder verwendest, hier Domains eintragen
+    domains: [],
   },
-  experimental: {
-    appDir: true, // Falls du App Router nutzt
-  },
+  // KEIN i18n, KEIN experimental.appDir nötig bei Next.js 15
 };
 
 module.exports = nextConfig;
