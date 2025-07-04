@@ -2,7 +2,7 @@
 
 import StickyHeader from '@/components/StickyHeader';
 import SupportForm from '@/components/SupportForm';
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 
 export default function SupportPage() {
   const { t } = useTranslation();
