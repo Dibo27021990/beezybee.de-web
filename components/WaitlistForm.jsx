@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { db } from '@/lib/firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 
 export default function WaitlistForm() {
   const { t } = useTranslation();
