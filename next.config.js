@@ -1,16 +1,15 @@
-module.exports = {
+// next.config.js
+const { i18n } = require('./next-i18next.config');
+
+const nextConfig = {
+  i18n,
   reactStrictMode: true,
-serverExternalPackages: ['undici'],
-  webpack: (config) => {
-    config.resolve.fallback = {
-      ...config.resolve.fallback,
-      fs: false,
-      net: false,
-      tls: false,
-      module: false,
-      stream: false,
-      assert: false
-    };
-    return config;
-  }
+  images: {
+    domains: [], // Wenn du externe Bilder verwendest, hier Domains eintragen
+  },
+  experimental: {
+    appDir: true, // Falls du App Router nutzt
+  },
 };
+
+module.exports = nextConfig;
