@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 import { FaCheckCircle } from 'react-icons/fa';
 
 export default function WhyDifferent() {
