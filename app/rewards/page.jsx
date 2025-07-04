@@ -1,6 +1,6 @@
 'use client';
 import StickyHeader from '@/components/StickyHeader';
-import { useTranslations } from 'next-intl';
+import { useTranslation } from 'react-i18next';
 
 export default function RewardsPage() {
   const { t } = useTranslation();
