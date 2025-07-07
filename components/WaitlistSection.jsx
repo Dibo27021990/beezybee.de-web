@@ -1,4 +1,3 @@
-'use client';
 import WaitlistForm from './WaitlistForm';
 import { useTranslation } from 'react-i18next';
 
