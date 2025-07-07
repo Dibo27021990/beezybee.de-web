@@ -1,4 +1,3 @@
-'use client';
 import StickyHeader from '@/components/StickyHeader';
 
 export default function LoginPage() {
