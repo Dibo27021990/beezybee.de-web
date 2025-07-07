@@ -1,6 +1,4 @@
 // app/not-found/page.jsx
-'use client';
-
 export default function NotFound() {
   return (
     <div style={{ padding: '4rem', textAlign: 'center' }}>
