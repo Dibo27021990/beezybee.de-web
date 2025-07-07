@@ -1,5 +1,3 @@
-'use client';
-
 import StickyHeader from '@/components/StickyHeader';
 import BureaucracyTabs from '@/components/BureaucracyTabs';
 import { useTranslation } from 'react-i18next';
