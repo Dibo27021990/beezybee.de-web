@@ -206,4 +206,21 @@
     "alt2": "Screenshot of job overview",
     "alt3": "Screenshot of application process"
   }
+},
+"bureaucracy": {
+  "title": "Administrative Steps for Side Jobs",
+  "subtitle": "What you need to know if you regularly take jobs through Beezybee",
+  "tabs": {
+    "taxFree": "Tax-Free Income",
+    "businessLicense": "Business Registration",
+    "taxOffice": "Tax Office",
+    "taxAdvisor": "Tax Advisor"
+  },
+  "contents": {
+    "taxFree": "Small jobs up to €410 per year are tax-free. Perfect for occasional help via Beezybee.",
+    "businessLicense": "If you work regularly, you need to register a small business. It’s quick and low-cost.",
+    "taxOffice": "After registering your business, the tax office will contact you. You'll declare your expected income.",
+    "taxAdvisor": "If you earn over €5,000 per year, a tax advisor can be helpful. They’ll assist with deductions and filings."
+  }
 }
+
