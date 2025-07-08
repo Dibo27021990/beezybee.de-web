@@ -1,14 +1,19 @@
+'use client';
 import FlyingBee from './FlyingBee';
 import { usePathname } from 'next/navigation';
 
 export default function FlyingBeeWrapper() {
   const pathname = usePathname();
 
-  // Optional: Nur auf bestimmten Seiten anzeigen
-  const showOnPaths = ['/', '/rewards', '/support'];
-  const shouldShow = showOnPaths.includes(pathname);
+  const shouldHide = [
+    '/login',
+    '/adminlogin',
+    '/admin/dashboard',
+    '/admin',
+    '/404',
+  ].includes(pathname);
 
-  if (!shouldShow) return null;
+  if (shouldHide) return null;
 
   return <FlyingBee />;
 }
