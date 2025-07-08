@@ -4,9 +4,9 @@ import dynamic from 'next/dynamic';
 import StickyHeader from '@/components/StickyHeader';
 
 const Hero = dynamic(() => import('@/components/Hero'));
-const Waitlist = dynamic(() => import('@/components/WaitlistSection'));
+const WaitlistSection = dynamic(() => import('@/components/WaitlistSection'));
 const HowItWorks = dynamic(() => import('@/components/HowItWorks'));
-const TrustBadges = dynamic(() => import('@/components/TrustBadges')); // Falls du willst
+const TrustBadges = dynamic(() => import('@/components/TrustBadges'));
 const Screenshots = dynamic(() => import('@/components/Screenshots'));
 const Testimonials = dynamic(() => import('@/components/Testimonials'));
 const Footer = dynamic(() => import('@/components/Footer'));
@@ -17,7 +17,7 @@ export default function HomePage() {
       <StickyHeader />
       <main className="bg-white">
         <Hero />
-        <Waitlist />
+        <WaitlistSection />
         <HowItWorks />
         <TrustBadges />
         <Screenshots />
