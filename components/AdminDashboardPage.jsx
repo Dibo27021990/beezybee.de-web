@@ -5,7 +5,8 @@ import { auth, db } from '@/lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
-import MapPlaceholder from './MapPlaceholder';
+const Map = () => <div style={{ height: 300, background: '#ccc' }}>Map (temporär deaktiviert)</div>;
+
 
 export default function AdminDashboardPage() {
   const { t } = useTranslation();
