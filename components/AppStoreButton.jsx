@@ -1,4 +1,10 @@
 'use client';
+export const dynamic = 'force-dynamic';
+
+import StickyHeader from '@/components/StickyHeader';
+import { useTranslation } from 'react-i18next';
+
+export default function RewardsPage() { /* ... */ }
 
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
