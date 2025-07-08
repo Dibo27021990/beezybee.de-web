@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  staticPageGenerationTimeout: 180, // Hoch auf 3 Minuten
   experimental: {
-    // Das verhindert, dass Vercel ewig lang an jeder Route rumnagt
+    // Optional: Falls Cacheprobleme → leer setzen
     incrementalCacheHandlerPath: '',
   },
-  staticPageGenerationTimeout: 120, // default ist 60 → auf 120 hochsetzen
 };
 
 module.exports = nextConfig;
