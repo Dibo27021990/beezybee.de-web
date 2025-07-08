@@ -2,24 +2,16 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import HttpBackend from 'i18next-http-backend';
 
-// Default auf Deutsch
-let defaultLng = 'de';
-if (typeof window !== 'undefined') {
-  const host = window.location.hostname;
-  if (host.endsWith('.com')) defaultLng = 'en';
-  if (host.endsWith('.de')) defaultLng = 'de';
-}
-
 i18n
   .use(HttpBackend)
   .use(initReactI18next)
   .init({
-    lng: defaultLng,           // <--- Das ist neu!
-    fallbackLng: defaultLng,   // <--- Optional, aber sauber!
+    lng: 'de',                     // oder 'en', je nach Default
+    fallbackLng: 'de',             // Fallback immer hart setzen
     supportedLngs: ['de', 'en'],
     ns: ['common'],
     defaultNS: 'common',
-    debug: true, // Optional: Nur in dev
+    debug: false,
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json'
     },
