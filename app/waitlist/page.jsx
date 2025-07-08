@@ -42,7 +42,7 @@ export default function WaitlistPage() {
             </select>
             <button
               type="submit"
-              className="bg-[#333] text-white w-full py-2 rounded"
+              className="w-full bg-yellow-400 hover:bg-yellow-500 text-black py-2 rounded font-semibold"
             >
               {t('waitlist.submit')}
             </button>
