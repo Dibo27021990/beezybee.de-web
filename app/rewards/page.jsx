@@ -7,6 +7,7 @@ export default function RewardsPage() {
 
   return (
     <main className="min-h-screen px-4 py-16 bg-white">
+      <StickyHeader />
       <h1 className="text-2xl font-bold text-center mb-6">{t('rewards.title')}</h1>
       <p className="text-center text-gray-700 mb-4">
         {t('rewards.description')}
