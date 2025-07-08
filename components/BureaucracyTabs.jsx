@@ -17,27 +17,28 @@ export default function BureaucracyTabs() {
     taxAdvisor: '/images/icons/taxAdvisor.png',
   };
 
-  const tabLabels = {
-    taxFree: t('bureaucracy.tabs.taxFree'),
-    businessLicense: t('bureaucracy.tabs.businessLicense'),
-    taxOffice: t('bureaucracy.tabs.taxOffice'),
-    taxAdvisor: t('bureaucracy.tabs.taxAdvisor'),
-  };
+  // Safe fallback if translation is missing
+  const tabLabels = tabs.reduce((acc, key) => {
+    acc[key] = t(`bureaucracy.tabs.${key}`) || key;
+    return acc;
+  }, {});
 
-  const tabContents = {
-    taxFree: t('bureaucracy.contents.taxFree'),
-    businessLicense: t('bureaucracy.contents.businessLicense'),
-    taxOffice: t('bureaucracy.contents.taxOffice'),
-    taxAdvisor: t('bureaucracy.contents.taxAdvisor'),
-  };
+  const tabContents = tabs.reduce((acc, key) => {
+    acc[key] = t(`bureaucracy.contents.${key}`) || '';
+    return acc;
+  }, {});
+
+  const imageSrc = images[activeTab] || '/images/icons/placeholder.png';
 
   return (
     <section className="py-16 px-4 bg-white">
-      <h2 className="text-2xl font-bold text-center mb-8">{t('bureaucracy.title')}</h2>
+      <h2 className="text-2xl font-bold text-center mb-8">
+        {t('bureaucracy.title') || 'Bürokratie'}
+      </h2>
 
       <div className="flex justify-center mb-6">
         <Image
-          src={images[activeTab]}
+          src={imageSrc}
           alt={activeTab}
           width={120}
           height={120}
