@@ -3,14 +3,13 @@
 import StickyHeader from '@/components/StickyHeader';
 import dynamic from 'next/dynamic';
 
-// Alle Komponenten lazy laden
+// Nur funktionierende Komponenten laden
 const Hero = dynamic(() => import('@/components/Hero'));
-const Waitlist = dynamic(() => import('@/components/Waitlist'));
-const HowTo = dynamic(() => import('@/components/HowTo'));
-const TrustSection = dynamic(() => import('@/components/TrustSection'));
 const Screenshots = dynamic(() => import('@/components/Screenshots'));
 const Testimonials = dynamic(() => import('@/components/Testimonials'));
 const Footer = dynamic(() => import('@/components/Footer'));
+// Optional: Wenn du die Warteliste nutzen willst
+// const Waitlist = dynamic(() => import('@/components/WaitlistSection'));
 
 export default function HomePage() {
   return (
@@ -18,9 +17,9 @@ export default function HomePage() {
       <StickyHeader />
       <main className="bg-white">
         <Hero />
-        <Waitlist />
-        <HowTo />
-        <TrustSection />
+        {/* <Waitlist /> */}
+        {/* HowTo entfernt, da nicht vorhanden */}
+        {/* TrustSection entfernt, da nicht vorhanden */}
         <Screenshots />
         <Testimonials />
         <Footer />
