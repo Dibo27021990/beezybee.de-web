@@ -206,4 +206,21 @@
     "alt2": "Screenshot der Auftragsübersicht",
     "alt3": "Screenshot des Bewerbungsprozesses"
   }
+},
+"bureaucracy": {
+  "title": "Behördliche Schritte für Nebenjobs",
+  "subtitle": "Was du beachten musst, wenn du regelmäßig Jobs über Beezybee machst",
+  "tabs": {
+    "taxFree": "Steuerfreie Einnahmen",
+    "businessLicense": "Gewerbeanmeldung",
+    "taxOffice": "Finanzamt",
+    "taxAdvisor": "Steuerberatung"
+  },
+  "contents": {
+    "taxFree": "Kleinere Aufträge bis 410 € im Jahr sind steuerfrei. Ideal für gelegentliche Hilfe über Beezybee.",
+    "businessLicense": "Wenn du regelmäßig tätig bist, musst du ein Kleingewerbe anmelden. Das geht schnell und kostet wenig.",
+    "taxOffice": "Du bekommst nach der Gewerbeanmeldung Post vom Finanzamt. Dort trägst du ein, wie viel du voraussichtlich verdienst.",
+    "taxAdvisor": "Ab 5.000 € Jahresumsatz kann sich ein Steuerberater lohnen. Er hilft dir bei Absetzungen und der Steuererklärung."
+  }
 }
+
