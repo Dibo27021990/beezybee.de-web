@@ -6,7 +6,9 @@ import { collection, getDocs } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 // Assuming react-map-gl is installed for Mapbox
-import Map, { Source, Layer } from 'react-map-gl';
+// import Map, { Source, Layer } from 'react-map-gl'; // DEAKTIVIERT FÜR TEST
+const Map = () => <div style={{ height: 300, background: '#ccc' }}>Map (temporär deaktiviert)</div>;
+
 
 export default function AdminDashboardPage() {
   const { t } = useTranslation();
