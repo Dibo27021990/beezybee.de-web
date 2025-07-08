@@ -128,7 +128,8 @@
     "liability": "Beezybee vermittelt ausschließlich. Haftung für Lizenzen/Gewerbescheine liegt bei den Nutzern."
   },
   "support": {
-    "title": "Support",
+    "title": "Support",  
+    "subtitle": "Du hast Fragen oder brauchst Hilfe? Schreib uns!",
     "email": "Deine E-Mail",
     "category": "Kategorie",
     "message": "Deine Nachricht",
