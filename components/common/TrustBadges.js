@@ -1,29 +1,30 @@
-// components/Common/TrustBadges.js (Badges für Verifizierung, Firmen, Video-ID, Versicherung, etc.)
-import React from 'react';
-import { View, Image, Text, StyleSheet } from 'react-native';
+'use client';
 
-const BADGES = [
-  { icon: require('../../assets/badge_video.png'), label: 'Trust Video-ID' },
-  { icon: require('../../assets/badge_company.png'), label: 'Verifizierte Firma' },
-  { icon: require('../../assets/badge_insurance.png'), label: 'Versichert' },
-  { icon: require('../../assets/badge_5star.png'), label: '5★ Top-Bewertungen' },
-];
+import { useTranslation } from 'react-i18next';
+import Image from 'next/image';
 
-export default function TrustBadges({ badges = [0, 2, 3] }) {
+export default function Hero() {
+  const { t } = useTranslation();
+
   return (
-    <View style={styles.row}>
-      {badges.map(i => (
-        <View key={i} style={styles.badge}>
-          <Image source={BADGES[i].icon} style={styles.icon} />
-          <Text style={styles.label}>{BADGES[i].label}</Text>
-        </View>
-      ))}
-    </View>
+    <section className="bg-white py-20 text-center relative">
+      <Image
+        src="/images/banner.jpg"
+        alt="Helperbee Banner"
+        width={120}
+        height={120}
+        className="mx-auto mb-4 rounded-full"
+      />
+      <h1 className="text-3xl sm:text-4xl font-bold mb-4">{t('hero.claim')}</h1>
+      <p className="text-lg text-gray-600 mb-6">{t('hero.slogan')}</p>
+      <div className="flex justify-center space-x-4">
+        <a href="#" className="bg-black text-white px-4 py-2 rounded">
+          {t('hero.downloadApp')}
+        </a>
+        <a href="#availability" className="bg-yellow-400 text-black px-4 py-2 rounded">
+          {t('hero.joinWaitlist')}
+        </a>
+      </div>
+    </section>
   );
 }
-const styles = StyleSheet.create({
-  row: { flexDirection: 'row', flexWrap: 'wrap', gap: 9, marginVertical: 9 },
-  badge: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#fffcf0', borderRadius: 12, paddingHorizontal: 10, paddingVertical: 5, marginRight: 10 },
-  icon: { width: 22, height: 22, marginRight: 6 },
-  label: { fontSize: 13, fontWeight: '600', color: '#A68D1D' },
-});
