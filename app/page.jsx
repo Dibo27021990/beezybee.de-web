@@ -1,29 +1,21 @@
-'use client';
+// import Hero from '@/components/Hero';
+// import Waitlist from '@/components/WaitlistSection';
+// import HowItWorks from '@/components/HowTo';
+// import TrustBadges from '@/components/common/TrustBadges';
+// import Screenshots from '@/components/Screenshots';
+// import Testimonials from '@/components/Testimonials';
+// import Footer from '@/components/Footer';
 
-import dynamic from 'next/dynamic';
-import StickyHeader from '@/components/StickyHeader';
-
-const Hero = dynamic(() => import('@/components/Hero'));
-const WaitlistSection = dynamic(() => import('@/components/WaitlistSection'));
-const HowItWorks = dynamic(() => import('@/components/HowItWorks'));
-const TrustBadges = dynamic(() => import('@/components/common/TrustBadges'));
-const Screenshots = dynamic(() => import('@/components/Screenshots'));
-const Testimonials = dynamic(() => import('@/components/Testimonials'));
-const Footer = dynamic(() => import('@/components/Footer'));
-
-export default function HomePage() {
+export default function Home() {
   return (
-    <>
-      <StickyHeader />
-      <main className="bg-white">
-        <Hero />
-        <WaitlistSection />
-        <HowItWorks />
-        <TrustBadges />
-        <Screenshots />
-        <Testimonials />
-        <Footer />
-      </main>
-    </>
+    <div>
+      {/* <Hero /> */}
+      {/* <Waitlist /> */}
+      {/* <HowItWorks /> */}
+      {/* <TrustBadges /> */}
+      {/* <Screenshots /> */}
+      {/* <Testimonials /> */}
+      {/* <Footer /> */}
+    </div>
   );
 }
