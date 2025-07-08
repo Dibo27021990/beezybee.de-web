@@ -1,9 +1,14 @@
-// components/FlyingBeeWrapper.jsx
-import dynamic from 'next/dynamic';
+import FlyingBee from './FlyingBee';
+import { usePathname } from 'next/navigation';
 
-const FlyingBee = dynamic(() => import('./FlyingBee'), {
-  ssr: false,
-});
+export default function FlyingBeeWrapper() {
+  const pathname = usePathname();
 
-export default FlyingBee;
+  // Optional: Nur auf bestimmten Seiten anzeigen
+  const showOnPaths = ['/', '/rewards', '/support'];
+  const shouldShow = showOnPaths.includes(pathname);
 
+  if (!shouldShow) return null;
+
+  return <FlyingBee />;
+}
