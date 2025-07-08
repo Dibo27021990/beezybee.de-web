@@ -1,5 +1,3 @@
-'use client';
-
 import StickyHeader from '@/components/StickyHeader';
 import SupportForm from '@/components/SupportForm';
 import { useTranslation } from 'react-i18next';
