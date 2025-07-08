@@ -3,10 +3,10 @@
 export const dynamic = 'force-dynamic';
 
 import StickyHeader from '@/components/StickyHeader';
-import dynamic from 'next/dynamic';
+import loadable from 'next/dynamic';
 import { useTranslation } from 'react-i18next';
 
-const BureaucracyTabs = dynamic(() => import('@/components/BureaucracyTabs'), { ssr: false });
+const BureaucracyTabs = loadable(() => import('@/components/BureaucracyTabs'), { ssr: false });
 
 export default function BureaucracyPage() {
   const { t } = useTranslation();
