@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  staticPageGenerationTimeout: 180, // Hoch auf 3 Minuten
-  experimental: {
-    // Optional: Falls Cacheprobleme → leer setzen
-    incrementalCacheHandlerPath: '',
-  },
+  staticPageGenerationTimeout: 180 // erlaubt Seiten bis zu 3 Minuten Build-Zeit
 };
 
 module.exports = nextConfig;
