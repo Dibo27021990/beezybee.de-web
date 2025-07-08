@@ -1,4 +1,5 @@
 'use client';
+
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
@@ -14,6 +15,20 @@ export default function BureaucracyTabs() {
     businessLicense: '/images/icons/businessLicense.png',
     taxOffice: '/images/icons/taxOffice.png',
     taxAdvisor: '/images/icons/taxAdvisor.png',
+  };
+
+  const tabLabels = {
+    taxFree: t('bureaucracy.tabs.taxFree'),
+    businessLicense: t('bureaucracy.tabs.businessLicense'),
+    taxOffice: t('bureaucracy.tabs.taxOffice'),
+    taxAdvisor: t('bureaucracy.tabs.taxAdvisor'),
+  };
+
+  const tabContents = {
+    taxFree: t('bureaucracy.contents.taxFree'),
+    businessLicense: t('bureaucracy.contents.businessLicense'),
+    taxOffice: t('bureaucracy.contents.taxOffice'),
+    taxAdvisor: t('bureaucracy.contents.taxAdvisor'),
   };
 
   return (
@@ -41,13 +56,13 @@ export default function BureaucracyTabs() {
                 : 'bg-gray-100 text-gray-700 border-gray-300 hover:bg-gray-200'
             }`}
           >
-            {t(`bureaucracy.tabs.${tab}`)}
+            {tabLabels[tab]}
           </button>
         ))}
       </div>
 
       <div className="max-w-2xl mx-auto text-center text-gray-800">
-        {t(`bureaucracy.contents.${activeTab}`)}
+        {tabContents[activeTab]}
       </div>
     </section>
   );
