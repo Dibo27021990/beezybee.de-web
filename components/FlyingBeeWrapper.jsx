@@ -1,4 +1,5 @@
 'use client';
+export const dynamic = 'force-dynamic';
 import FlyingBee from './FlyingBee';
 import { usePathname } from 'next/navigation';
 
