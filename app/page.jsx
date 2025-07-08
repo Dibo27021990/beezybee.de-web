@@ -1,6 +1,6 @@
 // import Hero from '@/components/Hero';
 // import Waitlist from '@/components/WaitlistSection';
-// import HowItWorks from '@/components/HowTo';
+// import HowItWorks from '@/components/HowToSection';
 // import TrustBadges from '@/components/common/TrustBadges';
 // import Screenshots from '@/components/Screenshots';
 // import Testimonials from '@/components/Testimonials';
