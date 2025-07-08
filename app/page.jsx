@@ -1,15 +1,15 @@
 'use client';
 
-import StickyHeader from '@/components/StickyHeader';
 import dynamic from 'next/dynamic';
+import StickyHeader from '@/components/StickyHeader';
 
-// Nur funktionierende Komponenten laden
 const Hero = dynamic(() => import('@/components/Hero'));
+const Waitlist = dynamic(() => import('@/components/WaitlistSection'));
+const HowItWorks = dynamic(() => import('@/components/HowItWorks'));
+const TrustBadges = dynamic(() => import('@/components/TrustBadges')); // Falls du willst
 const Screenshots = dynamic(() => import('@/components/Screenshots'));
 const Testimonials = dynamic(() => import('@/components/Testimonials'));
 const Footer = dynamic(() => import('@/components/Footer'));
-// Optional: Wenn du die Warteliste nutzen willst
-// const Waitlist = dynamic(() => import('@/components/WaitlistSection'));
 
 export default function HomePage() {
   return (
@@ -17,9 +17,9 @@ export default function HomePage() {
       <StickyHeader />
       <main className="bg-white">
         <Hero />
-        {/* <Waitlist /> */}
-        {/* HowTo entfernt, da nicht vorhanden */}
-        {/* TrustSection entfernt, da nicht vorhanden */}
+        <Waitlist />
+        <HowItWorks />
+        <TrustBadges />
         <Screenshots />
         <Testimonials />
         <Footer />
