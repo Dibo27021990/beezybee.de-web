@@ -1,7 +1,7 @@
 'use client';
 export const dynamic = 'force-dynamic';
 
-import dynamic from 'next/dynamic';
+import nextDynamic from 'next/dynamic';
 import StickyHeader from '@/components/StickyHeader';
 import { useTranslation } from 'react-i18next';
 
