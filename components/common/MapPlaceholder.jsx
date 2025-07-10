@@ -1,11 +1,4 @@
 'use client';
-export const dynamic = 'force-dynamic';
-
-import StickyHeader from '@/components/StickyHeader';
-import { useTranslation } from 'react-i18next';
-
-export default function RewardsPage() { /* ... */ }
-
 
 import dynamic from 'next/dynamic';
 
@@ -28,14 +21,14 @@ export default function MapPlaceholder({ entries }) {
       properties: {},
       geometry: {
         type: 'Point',
-        coordinates: [lng, lat]
-      }
+        coordinates: [lng, lat],
+      },
     };
   });
 
   const geoJsonData = {
     type: 'FeatureCollection',
-    features: geoFeatures
+    features: geoFeatures,
   };
 
   return (
@@ -54,12 +47,14 @@ export default function MapPlaceholder({ entries }) {
             paint={{
               'heatmap-intensity': ['interpolate', ['linear'], ['zoom'], 0, 1, 9, 3],
               'heatmap-color': [
-                'interpolate', ['linear'], ['heatmap-density'],
+                'interpolate',
+                ['linear'],
+                ['heatmap-density'],
                 0, 'rgba(0,0,255,0)',
                 0.5, 'rgba(0,255,0,0.5)',
-                1, 'rgba(255,0,0,0.8)'
+                1, 'rgba(255,0,0,0.8)',
               ],
-              'heatmap-radius': 20
+              'heatmap-radius': 20,
             }}
           />
         </Source>
@@ -67,3 +62,4 @@ export default function MapPlaceholder({ entries }) {
     </div>
   );
 }
+
