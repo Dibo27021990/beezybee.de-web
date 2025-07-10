@@ -1,19 +1,11 @@
 'use client';
-export const dynamic = 'force-dynamic';
-
-import StickyHeader from '@/components/StickyHeader';
-import { useTranslation } from 'react-i18next';
-
-export default function RewardsPage() { /* ... */ }
-
 
 import { useEffect, useState } from 'react';
 import { auth, db } from '@/lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
-const Map = () => <div style={{ height: 300, background: '#ccc' }}>Map (temporär deaktiviert)</div>;
-
+import MapPlaceholder from '@/components/common/MapPlaceholder';
 
 export default function AdminDashboardPage() {
   const { t } = useTranslation();
