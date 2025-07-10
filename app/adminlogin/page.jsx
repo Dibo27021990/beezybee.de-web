@@ -1,12 +1,8 @@
 'use client';
-export const dynamic = 'force-dynamic';
-
-import StickyHeader from '@/components/StickyHeader';
-import { useTranslation } from 'react-i18next';
-
-export default function RewardsPage() { /* ... */ }
 
 import dynamic from 'next/dynamic';
+import StickyHeader from '@/components/StickyHeader';
+import { useTranslation } from 'react-i18next';
 
 const AdminLoginPage = dynamic(() => import('@/components/AdminLoginPage'), {
   ssr: false,
@@ -16,4 +12,3 @@ const AdminLoginPage = dynamic(() => import('@/components/AdminLoginPage'), {
 export default function AdminLogin() {
   return <AdminLoginPage />;
 }
-
