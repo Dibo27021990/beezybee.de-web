@@ -1,6 +1,4 @@
 'use client';
-export const dynamic = 'force-dynamic';
-
 
 import StickyHeader from '@/components/StickyHeader';
 import dynamic from 'next/dynamic';
