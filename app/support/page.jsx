@@ -2,7 +2,7 @@
 export const dynamic = 'force-dynamic';
 
 import StickyHeader from '@/components/StickyHeader';
-import dynamic from 'next/dynamic';
+import nextDynamic from 'next/dynamic';
 import { useTranslation } from 'react-i18next';
 
 const SupportForm = dynamic(() => import('@/components/SupportForm'), {
